@@ -3,10 +3,10 @@ import Navbar from "../components/navbar/Navbar";
 import Careerhero from "../components/careercomponents/Careerhero";
 import Link from "next/link";
 
-import { HomeheaderTitles, Whatwedodata, Allservicesdata, successStoriesdata, teamMembersdata, historyData, testimonialsdata, homePageSEO } from '../data.jsx';
+import { HomeheaderTitles, careerPageSEO , jobOpenings } from '../data.jsx';
 
-// SEO Metadata for the Home page
-export const metadata = homePageSEO;
+// SEO Metadata for the Career page
+export const metadata = careerPageSEO;
 
 
 export default function Career() {
@@ -17,7 +17,7 @@ export default function Career() {
         <Navbar />
       </div>
       <section className="py-20">
-        <Careerhero />
+        <Careerhero jobOpenings={jobOpenings} />
       </section>
     </main>
   );

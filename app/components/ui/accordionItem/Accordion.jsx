@@ -27,10 +27,11 @@ const Accordion = ({ items = [], allowMultipleOpen = false }) => {
                     className="border-b last:border-b-1 transition-all duration-300 ease-in-out border-red-600"
                     key={index}
                     title={item.title}
+                    experience={item.experience}
                     isOpen={openIndexes.includes(index)}
                     onToggle={() => toggleItem(index)}
                 >
-                    {item.content}
+                    {item.description}
                 </AccordionItem>
             ))}
         </div>

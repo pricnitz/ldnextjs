@@ -1,7 +1,7 @@
 // components/AccordionItem.jsx
 import { useRef, useEffect, useState } from 'react';
 
-const AccordionItem = ({ title, children, isOpen, onToggle, className = '' }) => {
+const AccordionItem = ({ title, experience, children, isOpen, onToggle, className = '' }) => {
   const contentRef = useRef(null);
   const [height, setHeight] = useState(0);
 
@@ -19,7 +19,7 @@ const AccordionItem = ({ title, children, isOpen, onToggle, className = '' }) =>
         onClick={onToggle}
         className="w-full flex justify-between items-center p-4 text-left text-red-600 font-medium focus:outline-none cursor-pointer"
       >
-        <span>{title}</span>
+        <div className='flex gap-2'><span className='text-bold'>{title}</span><span className='text-sm text-para'>{experience}</span></div>
         <span>{isOpen ? '-' : '+'}</span>
       </button>
 

@@ -1308,6 +1308,121 @@ export const blogPostsdata = [
     }
 ];
 
+// ====================================================================================> Career page starst from here 
+
+export const jobOpenings = [
+  {
+    title: "SEO Expert",
+    experience: "2-4 years",
+    description: [
+      "Review and analyze client sites",
+      "Increase page rank and organic traffic",
+      "Compile and present SEO reports.",
+      "Promote static and dynamic websites",
+    ],
+    responsibilities: [
+      "Experience in SEM and SEO.",
+      "Experience with website analytics tools",
+      "Strong understanding of current online marketing concepts, strategy and best practice.",
+      "Popular keyword and other online SEO tools.",
+      "Working in multiple CMS environments.",
+      "Experience in ecommerce, SEO, PPC, Email marketing, and social media.",
+    ],
+  },
+  {
+    title: "PPC Expert",
+    experience: "2-6 years",
+    description: [
+      "Strong working knowledge of Google Adwords, Facebook Ads, Instagram Ads, YouTube Ads, Twitter & LinkedIn Ads.",
+      "Measure and report all paid marketing campaigns' performance and assess against goals (ROI and KPIs).",
+      "Strong track record in managing medium to large-sized budgets.",
+      "Promote static and dynamic websites",
+    ],
+    responsibilities: [
+      "Experience with Google Analytics and proven ability to capture and collate data in a presentable and useful way",
+      "A positive, collaborative and solution-focused attitude",
+      "You must be data-driven, analytical & enthusiastic with a proven track record",
+    ],
+  },
+  {
+    title: "Web Designer",
+    experience: "2-6 years",
+    description: [
+      "Take ownership of design projects.",
+      "Design page layouts and templates.",
+      "Work with front-end web developers to deploy designs.",
+      "Develop and maintain consistent branding.",
+      "Collaborate with UX, marketing, engineering, and other teams.",
+    ],
+    responsibilities: [
+      "Experience in front-end technologies, such as Bootstrap, JavaScript, HTML5, and CSS3.",
+      "Make Mobile Friendly / Responsive Web Pages.",
+      "Strong knowledge of UI/UX.",
+      "Ability to deliver production-ready digital assets in a wide variety of formats.",
+      "Ability to complete understanding project flow, requirements.",
+    ],
+  },
+  {
+    title: "Social Media Experts",
+    experience: "2-6 years",
+    description: [
+      "Proficient in content marketing theory and application.",
+      "Develop creative and engaging social media strategies.",
+      "Handling social media accounts and managing social media posting schedules",
+      "Research on latest social media trends",
+      "Assist in influencer marketing campaigns and Search Engine Optimization (SEO)",
+    ],
+    responsibilities: [
+      "Relevant experience in managing multiple social media platforms, majorly Facebook, Instagram, Twitter, LinkedIn and other online channels.",
+      "Well versed with new age social media platforms and short video apps",
+      "Well versed in using data and metrics to measure impact and determine improvements.",
+      "Excellent communication, presentation, and negotiation skills.",
+      "Good understanding of social media KPIs.",
+    ],
+  },
+  {
+    title: "Video Animator",
+    experience: "1-4 years",
+    description: [
+      "Excellent in design tools Adobe Flash, Illustrator, Photoshop and After Effects.",
+      "Should understand storyboard and visualize and execute the concept described in SB",
+      "Should do document reading and mockups and video creation.",
+      "Needs to be proficient with English language.",
+      "Needs to be a team player with strong problem solving skills.",
+    ],
+    responsibilities: [
+      "Line and 3D Animation",
+      "Basic sculpting",
+      "Video editing",
+      "Chroma screen",
+      "Basic photoshop design",
+      "Cinematography",
+      "Lighting, producing, illustration",
+      "Knowledge of motion graphics",
+    ],
+  },
+  {
+    title: "Graphic Designer",
+    experience: "2-6 years",
+    description: [
+      "Possess expertise in using tools like Corel Draw, Adobe Photoshop, Adobe Illustrator, Adobe InDesign",
+      "Ability to design graphics for all the Ecommerce, social media and online platforms",
+      "Advanced knowledge of design tools and ability to keep up with digital design trends",
+      "Well versed with Digital Media and other Graphic Design",
+      "Collaborate with the listing team, web team, marketing team to provide them with various assets including product images, web banners, social media ad graphics, blog banners, landing pages, animation, digital ads, illustrations, etc.",
+    ],
+    responsibilities: [
+      "Adobe creative cloud (Photoshop, Illustrator, After Effects, and Premiere Pro)",
+      "Stronghold on hand-sketching and typography skills",
+      "Basic understanding of Design Thinking",
+      "Creative mindset",
+      "Working in multiple CMS environments",
+      "Experience in ecommerce, SEO, PPC, Email marketing, and social media",
+    ],
+  },
+];
+
+
 
 // ===================================================================================> seo parts come from here 
 
