@@ -2,6 +2,66 @@ import Link from "next/link";
 import banner1 from "@/public/assets/banners/5.jpeg";
 import banner3 from "@/public/assets/banners/3.jpeg";
 
+import pf1 from "../public/assets/portfolioimg/adi1.png";
+import pf2 from "../public/assets/portfolioimg/adi2.png";
+import pf3 from "../public/assets/portfolioimg/adi3.png";
+import pf4 from "../public/assets/portfolioimg/db-1.png";
+import pf5 from "../public/assets/portfolioimg/db-2.png";
+import pf6 from "../public/assets/portfolioimg/db-3.png";
+import pf7 from "../public/assets/portfolioimg/gict1.png";
+import pf8 from "../public/assets/portfolioimg/gict2.png";
+import pf9 from "../public/assets/portfolioimg/gict3.png";
+import pf10 from "../public/assets/portfolioimg/lip1.png";
+import pf11 from "../public/assets/portfolioimg/lip2.png";
+import pf12 from "../public/assets/portfolioimg/lip3.png";
+import pf13 from "../public/assets/portfolioimg/lip4.png";
+import pf14 from "../public/assets/portfolioimg/lip5.png";
+import pf15 from "../public/assets/portfolioimg/lip6.png";
+import pf16 from "../public/assets/portfolioimg/lip7.png";
+import pf17 from "../public/assets/portfolioimg/lip8.png";
+import pf18 from "../public/assets/portfolioimg/lip9.png";
+import pf19 from "../public/assets/portfolioimg/lip10.png";
+import pf20 from "../public/assets/portfolioimg/lip11.png";
+import pf21 from "../public/assets/portfolioimg/lip12.png";
+import pf22 from "../public/assets/portfolioimg/lys1.png";
+import pf23 from "../public/assets/portfolioimg/lys2.png";
+import pf24 from "../public/assets/portfolioimg/lys3.png";
+
+// ===================================================================================> Portfolio starts frome here
+export const portfolioData = [
+    {
+        title: "Project 1",
+        images: [
+            pf1,
+            pf2,
+            pf3,
+            pf4,
+            pf5,
+            pf6,
+            pf7,
+            pf8,
+            pf9,
+            pf10,
+            pf11,
+            pf12,
+            pf13,
+            pf14,
+            pf15,
+            pf16,
+            pf17,
+            pf18,
+            pf19,
+            pf20,
+            pf21,
+            pf22,
+            pf23,
+            pf24
+        ]// ✅ array of images
+    },
+];
+
+// ====================================================================================> home page starts from here
+
 export const HomeheaderTitles = {
     title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
 }
@@ -1311,116 +1371,452 @@ export const blogPostsdata = [
 // ====================================================================================> Career page starst from here 
 
 export const jobOpenings = [
-  {
-    title: "SEO Expert",
-    experience: "2-4 years",
-    description: [
-      "Review and analyze client sites",
-      "Increase page rank and organic traffic",
-      "Compile and present SEO reports.",
-      "Promote static and dynamic websites",
-    ],
-    responsibilities: [
-      "Experience in SEM and SEO.",
-      "Experience with website analytics tools",
-      "Strong understanding of current online marketing concepts, strategy and best practice.",
-      "Popular keyword and other online SEO tools.",
-      "Working in multiple CMS environments.",
-      "Experience in ecommerce, SEO, PPC, Email marketing, and social media.",
-    ],
-  },
-  {
-    title: "PPC Expert",
-    experience: "2-6 years",
-    description: [
-      "Strong working knowledge of Google Adwords, Facebook Ads, Instagram Ads, YouTube Ads, Twitter & LinkedIn Ads.",
-      "Measure and report all paid marketing campaigns' performance and assess against goals (ROI and KPIs).",
-      "Strong track record in managing medium to large-sized budgets.",
-      "Promote static and dynamic websites",
-    ],
-    responsibilities: [
-      "Experience with Google Analytics and proven ability to capture and collate data in a presentable and useful way",
-      "A positive, collaborative and solution-focused attitude",
-      "You must be data-driven, analytical & enthusiastic with a proven track record",
-    ],
-  },
-  {
-    title: "Web Designer",
-    experience: "2-6 years",
-    description: [
-      "Take ownership of design projects.",
-      "Design page layouts and templates.",
-      "Work with front-end web developers to deploy designs.",
-      "Develop and maintain consistent branding.",
-      "Collaborate with UX, marketing, engineering, and other teams.",
-    ],
-    responsibilities: [
-      "Experience in front-end technologies, such as Bootstrap, JavaScript, HTML5, and CSS3.",
-      "Make Mobile Friendly / Responsive Web Pages.",
-      "Strong knowledge of UI/UX.",
-      "Ability to deliver production-ready digital assets in a wide variety of formats.",
-      "Ability to complete understanding project flow, requirements.",
-    ],
-  },
-  {
-    title: "Social Media Experts",
-    experience: "2-6 years",
-    description: [
-      "Proficient in content marketing theory and application.",
-      "Develop creative and engaging social media strategies.",
-      "Handling social media accounts and managing social media posting schedules",
-      "Research on latest social media trends",
-      "Assist in influencer marketing campaigns and Search Engine Optimization (SEO)",
-    ],
-    responsibilities: [
-      "Relevant experience in managing multiple social media platforms, majorly Facebook, Instagram, Twitter, LinkedIn and other online channels.",
-      "Well versed with new age social media platforms and short video apps",
-      "Well versed in using data and metrics to measure impact and determine improvements.",
-      "Excellent communication, presentation, and negotiation skills.",
-      "Good understanding of social media KPIs.",
-    ],
-  },
-  {
-    title: "Video Animator",
-    experience: "1-4 years",
-    description: [
-      "Excellent in design tools Adobe Flash, Illustrator, Photoshop and After Effects.",
-      "Should understand storyboard and visualize and execute the concept described in SB",
-      "Should do document reading and mockups and video creation.",
-      "Needs to be proficient with English language.",
-      "Needs to be a team player with strong problem solving skills.",
-    ],
-    responsibilities: [
-      "Line and 3D Animation",
-      "Basic sculpting",
-      "Video editing",
-      "Chroma screen",
-      "Basic photoshop design",
-      "Cinematography",
-      "Lighting, producing, illustration",
-      "Knowledge of motion graphics",
-    ],
-  },
-  {
-    title: "Graphic Designer",
-    experience: "2-6 years",
-    description: [
-      "Possess expertise in using tools like Corel Draw, Adobe Photoshop, Adobe Illustrator, Adobe InDesign",
-      "Ability to design graphics for all the Ecommerce, social media and online platforms",
-      "Advanced knowledge of design tools and ability to keep up with digital design trends",
-      "Well versed with Digital Media and other Graphic Design",
-      "Collaborate with the listing team, web team, marketing team to provide them with various assets including product images, web banners, social media ad graphics, blog banners, landing pages, animation, digital ads, illustrations, etc.",
-    ],
-    responsibilities: [
-      "Adobe creative cloud (Photoshop, Illustrator, After Effects, and Premiere Pro)",
-      "Stronghold on hand-sketching and typography skills",
-      "Basic understanding of Design Thinking",
-      "Creative mindset",
-      "Working in multiple CMS environments",
-      "Experience in ecommerce, SEO, PPC, Email marketing, and social media",
-    ],
-  },
+    {
+        title: "SEO Expert",
+        experience: "2-4 years",
+        description: [
+            "Review and analyze client sites",
+            "Increase page rank and organic traffic",
+            "Compile and present SEO reports.",
+            "Promote static and dynamic websites",
+        ],
+        responsibilities: [
+            "Experience in SEM and SEO.",
+            "Experience with website analytics tools",
+            "Strong understanding of current online marketing concepts, strategy and best practice.",
+            "Popular keyword and other online SEO tools.",
+            "Working in multiple CMS environments.",
+            "Experience in ecommerce, SEO, PPC, Email marketing, and social media.",
+        ],
+    },
+    {
+        title: "PPC Expert",
+        experience: "2-6 years",
+        description: [
+            "Strong working knowledge of Google Adwords, Facebook Ads, Instagram Ads, YouTube Ads, Twitter & LinkedIn Ads.",
+            "Measure and report all paid marketing campaigns' performance and assess against goals (ROI and KPIs).",
+            "Strong track record in managing medium to large-sized budgets.",
+            "Promote static and dynamic websites",
+        ],
+        responsibilities: [
+            "Experience with Google Analytics and proven ability to capture and collate data in a presentable and useful way",
+            "A positive, collaborative and solution-focused attitude",
+            "You must be data-driven, analytical & enthusiastic with a proven track record",
+        ],
+    },
+    {
+        title: "Web Designer",
+        experience: "2-6 years",
+        description: [
+            "Take ownership of design projects.",
+            "Design page layouts and templates.",
+            "Work with front-end web developers to deploy designs.",
+            "Develop and maintain consistent branding.",
+            "Collaborate with UX, marketing, engineering, and other teams.",
+        ],
+        responsibilities: [
+            "Experience in front-end technologies, such as Bootstrap, JavaScript, HTML5, and CSS3.",
+            "Make Mobile Friendly / Responsive Web Pages.",
+            "Strong knowledge of UI/UX.",
+            "Ability to deliver production-ready digital assets in a wide variety of formats.",
+            "Ability to complete understanding project flow, requirements.",
+        ],
+    },
+    {
+        title: "Social Media Experts",
+        experience: "2-6 years",
+        description: [
+            "Proficient in content marketing theory and application.",
+            "Develop creative and engaging social media strategies.",
+            "Handling social media accounts and managing social media posting schedules",
+            "Research on latest social media trends",
+            "Assist in influencer marketing campaigns and Search Engine Optimization (SEO)",
+        ],
+        responsibilities: [
+            "Relevant experience in managing multiple social media platforms, majorly Facebook, Instagram, Twitter, LinkedIn and other online channels.",
+            "Well versed with new age social media platforms and short video apps",
+            "Well versed in using data and metrics to measure impact and determine improvements.",
+            "Excellent communication, presentation, and negotiation skills.",
+            "Good understanding of social media KPIs.",
+        ],
+    },
+    {
+        title: "Video Animator",
+        experience: "1-4 years",
+        description: [
+            "Excellent in design tools Adobe Flash, Illustrator, Photoshop and After Effects.",
+            "Should understand storyboard and visualize and execute the concept described in SB",
+            "Should do document reading and mockups and video creation.",
+            "Needs to be proficient with English language.",
+            "Needs to be a team player with strong problem solving skills.",
+        ],
+        responsibilities: [
+            "Line and 3D Animation",
+            "Basic sculpting",
+            "Video editing",
+            "Chroma screen",
+            "Basic photoshop design",
+            "Cinematography",
+            "Lighting, producing, illustration",
+            "Knowledge of motion graphics",
+        ],
+    },
+    {
+        title: "Graphic Designer",
+        experience: "2-6 years",
+        description: [
+            "Possess expertise in using tools like Corel Draw, Adobe Photoshop, Adobe Illustrator, Adobe InDesign",
+            "Ability to design graphics for all the Ecommerce, social media and online platforms",
+            "Advanced knowledge of design tools and ability to keep up with digital design trends",
+            "Well versed with Digital Media and other Graphic Design",
+            "Collaborate with the listing team, web team, marketing team to provide them with various assets including product images, web banners, social media ad graphics, blog banners, landing pages, animation, digital ads, illustrations, etc.",
+        ],
+        responsibilities: [
+            "Adobe creative cloud (Photoshop, Illustrator, After Effects, and Premiere Pro)",
+            "Stronghold on hand-sketching and typography skills",
+            "Basic understanding of Design Thinking",
+            "Creative mindset",
+            "Working in multiple CMS environments",
+            "Experience in ecommerce, SEO, PPC, Email marketing, and social media",
+        ],
+    },
 ];
+
+//=============================================================================================> services
+export const digitalMarketingData = {
+    title: "Digital Marketing",
+    highlight: "Services",
+    description: [`One of the most popular marketing techniques of modern times is digital marketing. Your company requires a <a style="color: #ffffff;" href="https://leadsandbrands.com/digital-marketing-services-bhopal">digital marketing agency in Bhopal</a> that well appreciates the constraints and potential of various digital media platforms, but can provide the best <a style="color: #ffffff;" href="https://leadsandbrands.com/digital-marketing-services-bhopal">digital marketing services in Bhopal</a> via various means such as Search Engine Optimization (SEO), Social Media Marketing, Paid Search (PPC) advertising, Effective Content Marketing, Email Marketing, and Mobile Marketing among many others.`],
+
+    image: {
+        src: "https://leadsandbrands.com/public/images/icon/dm.png",
+        alt: "Digital Marketing Services",
+        style: "w-[406px] float-right"
+    },
+
+    sectionOne: {
+        title: "What Sets Us Apart from the Rest of the Digital Marketing Agencies in Bhopal?",
+        description: `Leads and Brands provides end-to-end digital marketing services in Bhopal for our clients. Our marketing strategies are data filtered by information gathered from our experts and analytics tools that assist you in reaching your right audiences. That is how we have become the <a style="color: #ff0000;" href="https://leadsandbrands.com/" class="h-red">Best Digital Marketing Agency in Bhopal</a>, India.`
+    },
+
+    sectionTwo: {
+        title: "We Provide the Best Digital Marketing in Bhopal",
+        description: "As one of the top digital marketing company in Bhopal, Leads and Brands presents to you a group of extremely talented professionals providing:",
+        features: [
+            "The best SEO agency in Bhopal",
+            "Highly converting business websites",
+            "Real leads with PPC campaigns",
+            "Long-term brand establishment on social media"
+        ],
+        conclusion: "Our strength is in providing high-end creatives and compelling content development across all digital platforms."
+    },
+
+    sectionThree: {
+        title: "Our Digital Marketing Process in Bhopal",
+        steps: [
+            "Analyzing client goals and establishing digital marketing objectives",
+            "Carrying out competitor analysis and research to pick best keywords and target groups",
+            "Creating personalized campaigns for both search engine marketing and social media for reaching target groups and making brands popular",
+            "Delivering monthly reports and integrating client feedback to improving constantly campaign effectiveness and lead quality"
+        ],
+        conclusion: "Leave the best Bhopal digital marketing agency with your online growth and business returns."
+    }
+};
+
+export const seoMarketingData = {
+    title: "SEO",
+    highlight: "Company in Bhopal",
+    description: [
+        `At leadsandBrands, you are not just getting digital presence for your product or website 
+    but also complete search engine optimization solutions from scratch. As we are one of the 
+    <strong style="color: #ff0000;">Best SEO company and agency in Bhopal, Madhya Pradesh</strong> 
+    we have been gone through from zero to infinite level weather you want leads, sales, conversions 
+    for your website we will help you in every aspect to get you real customers for your business 
+    as a <a style="color: #ffffff;" href="https://leadsandbrands.com/seo-company-bhopal">SEO company in Bhopal</a> we not work 
+    on false promises we work from the start of the work to end of the campaign until you get desired results. 
+    Weather you have a business in real estate, medical, education, travel we are always ready to work with you.`
+    ],
+
+    cta: {
+        label: "Get Free SEO Audit",
+        href: "#contact",
+        style: {
+            backgroundColor: "#ff0000",
+            color: "#fff",
+            padding: "18px 50px",
+            marginTop: "30px",
+            borderRadius: "4px",
+            fontWeight: "bold",
+            display: "inline-block",
+            textDecoration: "none",
+            fontSize: "1.1rem",
+            transition: "all 0.3s ease"
+        }
+    },
+
+    image: {
+        src: "https://leadsandbrands.com/public/images/icon/seo.png",
+        alt: "SEO services in Bhopal",
+        style: {
+            maxWidth: "100%",
+            height: "auto"
+        }
+    }
+};
+
+export const ppcData = {
+    title: "Pay Per",
+    highlight: "Click",
+    description: [
+        `PPC (Pay Per Click) is a part of search engine marketing and all about receiving the appropriate quality leads for your business. Leads and Brands, an expert <a style="color: #ffffff;" href="#">PPC company in Bhopal</a>, has a special team for <a style="color: #ffffff;" href="#">PPC advertising in Bhopal</a> that assists your business in targeting the appropriate keywords and audiences in the right way.`,
+        `Typically, users click on the number one results that pop up on Google, maximizing conversion opportunities. Google Display ads engage 90% of online users, providing 50% greater traffic opportunity than organic search. As a leading PPC agency in Bhopal, Leads and Brands is known for achieving remarkable paid advertising outcomes.`
+    ],
+    image: {
+        src: "https://leadsandbrands.com/public/images/icon/ppc.png",
+        alt: "PPC Services",
+        style: "pt-20 w-[400px]" // you can pass tailwind utility classes here
+    },
+    sectionTwo: {
+        title: "Why Go with Our PPC Services in Bhopal",
+        features: [
+            "Professional Keyword Analysis",
+            "High-Converting Search Ads & Shopping Ads",
+            "Refined Tracking & Analytics",
+            "Tailored PPC Strategies"
+        ],
+        conclusion:
+            "Rely on the best PPC services in Bhopal for driving targeted traffic and optimizing your ROI."
+    }
+};
+
+export const smmData = {
+    title: "Top",
+    highlight: "Social Media Services",
+    description: [`Social Media Marketing assists your company in establishing a strong online presence in the current market. We are all aware of how much time one spends on social media platforms. Capitalizing on this advantage, Leads and Brands - a world-class social media agency in Bhopal - has created robust strategies to rebrand your company as a well-established brand on all social media platforms. Our dedicated team of experts offers best-in-class <a href="https://leadsandbrands.com/social-media-services-bhopal">social media services in Bhopal</a>, focusing on successful digital engagement.`],
+
+    image: {
+        src: "https://leadsandbrands.com/public/images/icon/smm.png",
+        alt: "social media services in bhopal",
+        style: "w-[300px] mx-auto"
+    },
+
+    sectionOne: {
+        title: "Advantages of Our Social Media Marketing Services",
+        features: [
+            "Improves Your Brand Perception",
+            "Reaches the Ideal Audience for Your Niche",
+            "Gain More Followers and Page Engagement",
+            "Attracts More Traffic Than Conventional Marketing"
+        ]
+    },
+
+    sectionTwo: {
+        title: "How Our Social Media Company in Bhopal Can Help You",
+        features: [
+            "Expert Social Media Page Management",
+            "Targeted Facebook Ads",
+            "Strategic Instagram Campaigns",
+            "Organic Growth of Followers and Likes"
+        ],
+        conclusion: `As the top social media company in Bhopal, we develop tailored strategies to help you gain maximum online presence and business growth.`
+    }
+};
+
+export const semMarketingdata = {
+    sectionId: "sem",
+    title: "Search Engine Marketing",
+    highlight: "Search Engine",
+    description: [
+        `Search Engine Marketing (SEM) is an effective paid digital marketing that increases visibility on a website in search engine results. 
+    Being a leading SEM agency in Bhopal, we enable business to rank on Google's first page with targeted paid placements.`,
+
+        `Search Engine Marketing or paid search marketing brings traffic in a flash and increases your online presence and brand recognition 
+    with your target audience. Leads and Brands, your reliable 
+    <a href="https://leadsandbrands.com/sem-services-bhopal">SEM company in Bhopal</a>, is an expert at assisting enterprises 
+    in achieving the top rankings and marketing objectives through competent paid campaigns.`
+    ],
+
+    image: {
+        src: "https://leadsandbrands.com/public/images/icon/sem.png",
+        alt: "SEM services in Bhopal",
+        style: {
+            width: "435px",
+            paddingTop: "95px"
+        }
+    },
+
+    sectionTwo: {
+        title: "Why Our SEM Services in Bhopal?",
+        features: [
+            "Increases Conversion Chances",
+            "Brings Targeted Traffic Instantly",
+            "Increases Brand Visibility"
+        ],
+        conclusion: `With our Bhopal SEM services in Bhopal, we develop tailored paid search campaigns that bring in results and accelerate your business.`
+    }
+};
+
+
+export const contentWritingData = {
+    title: "Content",
+    highlight: "Writing",
+    description: [
+        `Good content takes individuals through the conversion process and makes them interested in your company. Irrelevant content makes visitors bounce off your website and leave your sales funnel.`,
+        `Being a top <a href="https://leadsandbrands.com/content-development-services">content writing company in Bhopal</a>, we design useful and engaging content that transports your readers on a journey - from minimal brand familiarity to seriously thinking about your solution. Our Bhopal content development company is expert in developing top-notch content that is engaging, shareable, and sales-driving.`,
+        `Employing our expert <a href="https://leadsandbrands.com/content-development-services">content writing services in Bhopal</a> assists your business in building thought leadership and positioning yourself as a thought leader in your industry. Good content is the groundwork that establishes your authority and turns visitors into buyers.`
+    ],
+
+    image: {
+        src: "https://leadsandbrands.com/public/images/icon/cw.png",
+        alt: "Content Writing Services in Bhopal",
+        style: "w-[437px] mx-auto"
+    }
+};
+
+export const webDevelopmentData = {
+    title: "Professional Website Development",
+    highlight: "& Design Services in Bhopal",
+    description: [
+        `Leads and Brands is a renowned <a href="https://leadsandbrands.com/web-developement-services-bhopal">web development company in Bhopal</a>. We concentrate on our client's vision and requirements and provide complete custom website development services. Our special team of website designing and web development has always given fully responsive, mobile-friendly, and SEO-friendly sites. Our development team knows everything and is willing to bring your ideas to fully functional reality.`
+    ],
+
+    image: {
+        src: "https://leadsandbrands.com/public/images/icon/wd.png",
+        alt: "Web Development Company in Bhopal",
+        style: "w-[350px] pt-12 mx-auto"
+    },
+
+    sectionOne: {
+        title: "Leads and Brands is a top Website Designing Company in Bhopal",
+        description: `We can guarantee you the best cost-effective and optimised solution for your needs. We identify it as the best web developing or <a href="https://leadsandbrands.com/web-developement-services-bhopal">web designing company in Bhopal</a> and in the business world. Being the top web development services in Bhopal, we are convinced that your website must be able to turn visitors into paying customers. That's why we review all the major points of our client's website and provide a seamless and satisfying experience.`
+    },
+
+    sectionTwo: {
+        title: "Some of the major things we considered while designing a website",
+        features: [
+            "User Friendly",
+            "Responsive",
+            "Quicker Loading Speed",
+            "SEO Friendly",
+            "Total Responsive Setup",
+            "Best Support and Maintenance"
+        ]
+    }
+};
+
+export const mobileAppData = {
+    title: "Mobile",
+    highlight: "App Development",
+    description: [
+        `Leads and Brands is a top mobile app development firm in Bhopal, providing custom mobile app development services in Bhopal as per your business requirements. In this age of digitalization, a mobile application is as important as a website for business growth. We specialize in creating top-performing Android applications with innovative, secure, and intuitive designs. Regular updates are also provided by us so that your app remains competitive.`
+    ],
+
+    image: {
+        src: "https://leadsandbrands.com/public/images/icon/app.png",
+        alt: "Mobile App Development Services in Bhopal",
+        style: "w-[337px] mx-auto"
+    },
+
+    sectionOne: {
+        description: `We at Leads and Brands have a team of experienced professionals with 5+ years of experience in mobile app development services in Bhopal. Being one of the most reliable mobile app development companies in Bhopal, we ensure timely and budget-friendly projects. Mobile app development is not just an affordable option but also a popular choice to drive engagement and reach.`
+    }
+};
+
+export const emailMarketingdata = {
+    title: "Email",
+    highlight: " Marketing Services",
+    description: [
+        `Email marketing is the only platform where users voluntarily choose to receive messages. 
+    The majority of companies use this platform to communicate with customers who have opted-in voluntarily, 
+    making it one of the most successful marketing strategies. As these users are already interested in your 
+    product or services, email marketing has a higher rate of conversion.`,
+
+        `If you are looking for <a href="https://leadsandbrands.com/email-marketing-services">email marketing services in Bhopal</a>, 
+    Leads and Brands is your <b>email marketing agency in Bhopal</b>. Our professional team awaits to advise you regarding 
+    mass email marketing campaigns as per your business requirements. One of the main strengths of email marketing is that 
+    it is cheaper than the traditional modes of marketing. Targeting an audience who are already familiar with your brand, 
+    you can get much better conversion rates. Email marketing is also a key element in full-scale digital marketing strategies. 
+    As a top <a href="https://leadsandbrands.com/email-marketing-services">email marketing agency in Bhopal</a>, we assist you 
+    in engaging with your audience to drive your brand, increase sales, and improve customer interaction. Using email marketing, 
+    you can sell, offer unique discounts, broadcast news, and drive cart value while developing long-term relationships with customers.`,
+
+        `Select Leads and Brands for result-oriented and expert email marketing services in Bhopal for growing your business effectively.`
+    ],
+
+    image: {
+        src: "https://leadsandbrands.com/public/images/icon/em.svg",
+        alt: "Email Marketing Icon",
+        width: "200px"
+    }
+};
+
+export const aiMarketingdata = {
+    sectionId: "wd",
+    title: "AI Marketing Company in Bhopal",
+    headingHighlight: "AI",
+    description: [
+        `Leads and Brands is proud to be Bhopal's first AI marketing agency. We specialize in using artificial intelligence 
+    to boost digital marketing strategies, offering innovative solutions tailored for businesses. With expertise in 
+    predictive analytics, personalized automation, and more, we redefine marketing excellence in Bhopal's dynamic 
+    marketplace. Partner with us to stay ahead with cutting-edge AI technologies and achieve unparalleled growth and success.`,
+
+        `Leads and Brands offer advanced AI marketing solutions to boost your digital presence and maximize returns. 
+    Our services include predictive analytics for targeted campaigns, automated processes for efficiency, and 
+    AI-powered insights for smart decision-making. Whether you aim to improve customer engagement, optimize marketing budgets, 
+    or grow sustainably, our tailored AI solutions deliver measurable results across various industries.`
+    ],
+
+    image: {
+        src: "https://leadsandbrands.com/public/images/icon/samwad.aipageillustration.svg",
+        alt: "AI Marketing Illustration",
+        width: "418px",
+        style: { paddingTop: "50px" }
+    },
+
+    faqs: [
+        {
+            question: "What are the benefits of AI in marketing?",
+            answer: "AI enhances marketing by improving targeting precision, automating repetitive tasks, and providing actionable insights from data analysis."
+        },
+        {
+            question: "How can AI improve marketing ROI?",
+            answer: "AI improves ROI by optimizing ad spend based on predictive analytics, personalizing customer interactions at scale, and increasing efficiency in campaign management."
+        },
+        {
+            question: "Is AI marketing suitable for all business sizes?",
+            answer: "Yes, AI marketing can benefit businesses of all sizes by offering scalable solutions that enhance marketing effectiveness and streamline operations."
+        }
+    ]
+};
+
+export const careerPageSEO = {
+    title: 'Lead & Brand - Careers',
+    description: 'Join our team at Lead & Brand and help us drive digital growth for our clients.',
+    keywords: ['careers', 'job openings', 'digital marketing jobs', 'join our team'],
+    openGraph: {
+        title: 'Lead & Brand - Careers',
+        description: 'Explore exciting career opportunities at Lead & Brand.',
+        url: 'https://www.yourwebsite.com/careers',
+        siteName: 'Lead & Brand',
+        images: [
+            {
+                url: '/assets/og-image.jpg',
+                width: 1200,
+                height: 630,
+                alt: 'Lead & Brand Careers',
+            },
+        ],
+        locale: 'en_US',
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Lead & Brand - Careers',
+        description: 'Join our team and help us drive digital growth for our clients.',
+        creator: '@yourtwitterhandle',
+        images: ['/assets/twitter-image.jpg'],
+    },
+};
 
 
 
@@ -1483,3 +1879,4 @@ export const blogPageSEO = {
         images: ['/assets/twitter-image.jpg'],
     },
 };
+

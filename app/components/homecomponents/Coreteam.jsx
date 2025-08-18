@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { MemberCard } from '../ui/cards/Cards'
 
 
 function Coreteam({ data }) {
@@ -13,20 +14,12 @@ function Coreteam({ data }) {
         </div>
         <div className='col-span-2 grid grid-cols-2 md:grid-cols-3'>
           {data.map((member, index) => (
-            <div
+            <MemberCard
               key={index}
-              className="relative shadow-md h-60 w-full group hover:scale-100 transition-transform duration-300 overflow-hidden"
-            >
-              <img
-                src={member.image}
-                alt={member.name}
-                className="h-full w-full object-cover absolute left-0 top-0 grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-300"
-              />
-              <div className="absolute bottom-0 z-10 w-full bg-gradient-to-t from-black to-transparent group-hover:from-red-500 group-hover:to-transparent p-4 transition-all duration-300">
-                <h5 className="font-bold text-lg text-white">{member.name}</h5>
-                <p className="text-white text-sm">{member.role}</p>
-              </div>
-            </div>
+              image={member.image}
+              name={member.name}
+              role={member.role}
+            />
           ))}
         </div>
       </div>

@@ -19,14 +19,14 @@ function Allservices({ data }) {
                     .join(" ")}
                 </p>
                 <div className='w-35'>
-                  <Buttonsolid>
                     <Link href={item.link}>
-                      Read More
+                      <Buttonsolid>
+                        Read More
+                      </Buttonsolid>
                     </Link>
-                  </Buttonsolid>
+                  </div>
                 </div>
-              </div>
-            ))
+              ))
           }
         </div>
       </div>

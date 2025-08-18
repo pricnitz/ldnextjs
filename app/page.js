@@ -21,14 +21,22 @@ export default function Home() {
         <Header data={HomeheaderTitles} />
         <Navbar />
       </div>
-      <Hero />
-      <Whatwedo data={Whatwedodata} />
+      <section id="home">
+           <Hero  />
+      </section>
+      <section id="services">
+        <Whatwedo data={Whatwedodata} />
+      </section>
       <Allservices data={Allservicesdata} />
       <div className="bg-cover bg-top h-auto w-full" style={{ backgroundImage: `url('/assets/banners/1.jpeg')` }}>
         <Successstory data={successStoriesdata} />
       </div>
-      <Coreteam data={teamMembersdata} />
-      <History data={historyData} />
+      <section id="team">
+        <Coreteam data={teamMembersdata} />
+      </section>
+      <section id="about">
+        <History data={historyData} />
+      </section>
       <Testimonial data={testimonialsdata} />
     </main>
   );
