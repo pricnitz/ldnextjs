@@ -5,15 +5,17 @@ import SectionBlock from "../components/servicescomponents/SectionBlock";
 import FeatureList from "../components/servicescomponents/FeatureList";
 import ProcessSteps from "../components/servicescomponents/ProcessSteps";
 
-import { HomeheaderTitles, ppcData } from "../data.jsx";
+import { ppcheaderTitles, ppcData } from "../data.jsx";
+import { ppcPageSEO } from "../seo";
+
+export const metadata = ppcPageSEO;
 
 export default function index() {
   const data = ppcData; 
   return (
     <main className="w-full mx-auto bg-primary pt-20">
-      {/* Header + Navbar */}
       <div className="fixed inset-x-0 top-0 z-50">
-        <Header data={HomeheaderTitles} />
+        <Header data={ppcheaderTitles} />
         <Navbar />
       </div>
 

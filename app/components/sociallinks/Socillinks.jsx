@@ -12,7 +12,7 @@ function Socillinks() {
                 <a href="#" className='text-white hover:text-red-600'><FaTwitter size={17} /></a>
                 <a href="#" className='text-white hover:text-red-600'><FaWhatsapp size={17} /></a>
                 <a href="#" className='text-white hover:text-red-600'><FaMapMarkerAlt size={17} /></a>
-                <div className='font-raleway -rotate-90 mt-7 tracking-wides font-bold'><h5>Follow us</h5></div>
+                <div className='font-raleway -rotate-90 mt-7 tracking-wides font-bold text-white'><h5>Follow us</h5></div>
             </div>
         </div>
         <div className='flex md:hidden flex-col mt-4 items-center '>
@@ -24,7 +24,7 @@ function Socillinks() {
                     <a href="#" className='text-white hover:text-red-600'><FaWhatsapp size={17} /></a>
                     <a href="#" className='text-white hover:text-red-600'><FaMapMarkerAlt size={17} /></a>
                 </div>
-                <div className='font-raleway mt-4 tracking-wides font-bold'><h5>Follow us</h5></div>
+                <div className='font-raleway mt-4 tracking-wides font-bold text-white'><h5>Follow us</h5></div>
             </div>
         </>
     );

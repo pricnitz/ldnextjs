@@ -5,7 +5,10 @@ import SectionBlock from "../components/servicescomponents/SectionBlock";
 import FeatureList from "../components/servicescomponents/FeatureList";
 import ProcessSteps from "../components/servicescomponents/ProcessSteps";
 
-import { HomeheaderTitles, contentWritingData } from "../data.jsx";
+import { contentheaderTitles, contentWritingData } from "../data.jsx";
+import { ContentDevelopmentPageSEO } from "../seo";
+
+export const metadata = ContentDevelopmentPageSEO;
 
 export default function index() {
   const data = contentWritingData; 
@@ -13,7 +16,7 @@ export default function index() {
     <main className="w-full mx-auto bg-primary pt-20">
       {/* Header + Navbar */}
       <div className="fixed inset-x-0 top-0 z-50">
-        <Header data={HomeheaderTitles} />
+        <Header data={contentheaderTitles} />
         <Navbar />
       </div>
 

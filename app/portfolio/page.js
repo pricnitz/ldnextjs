@@ -1,7 +1,11 @@
 import Header from "../components/header/Header";
 import Navbar from "../components/navbar/Navbar";
 import { PortfolioCard } from "../components/ui/cards/Cards";
-import { HomeheaderTitles, portfolioData } from "../data.jsx"; 
+import { portfolioheaderTitles, portfolioData } from "../data.jsx"; 
+import { portfolioPageSEO } from "../seo";
+
+
+export const metadata = portfolioPageSEO;
 
 export default function Index() {
   
@@ -9,7 +13,7 @@ export default function Index() {
     <main className="w-full mx-auto bg-primary pt-20">
       {/* Header + Navbar */}
       <div className="fixed inset-x-0 top-0 z-50">
-        <Header data={HomeheaderTitles} />
+        <Header data={portfolioheaderTitles} />
         <Navbar />
       </div>
 

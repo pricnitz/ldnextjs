@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Serviceshero({ data }) {
   return (
@@ -16,7 +17,7 @@ function Serviceshero({ data }) {
       {/* Right Section (Image) */}
       <div className="flex justify-center md:justify-end">
         {data.image && (
-          <img
+          <Image
             src={data.image.src}
             alt={data.image.alt}
             className={`w-full max-w-[250px] h-auto object-contain ${data.image.style || ""}`}

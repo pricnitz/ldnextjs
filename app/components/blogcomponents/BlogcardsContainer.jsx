@@ -1,6 +1,8 @@
 import React from "react";
 import { Buttonfill } from "../ui/buttons/Buttons";
+import Image from "next/image";
 import Link from "next/link";
+import { slugify } from "@/app/utils/slugify";
 
 function truncateByChars(str, maxChars) {
   if (!str) return "";
@@ -12,17 +14,12 @@ function truncateByChars(str, maxChars) {
 
 export default function BlogcardsContainer({ data }) {
   const TITLE_LIMIT = 40;
-  const EXCERPT_LIMIT = 200;
 
   return (
     <div className="w-full mx-auto bg-primary">
       <div className="max-w-6xl mx-auto py-10 md:py-20 md:px-4 px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {data.map((post) => {
-          // ✅ Generate slug from title
-          const slug = post.title
-            .toLowerCase()
-            .replace(/[^a-z0-9]+/g, "-")
-            .replace(/(^-|-$)+/g, "");
+          const slug = slugify(post.title);
 
           return (
             <div
@@ -31,7 +28,7 @@ export default function BlogcardsContainer({ data }) {
             >
               {/* Image */}
               <div className="aspect-[16/9] overflow-hidden">
-                <img
+                <Image
                   src={post.image}
                   alt={post.title}
                   className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
@@ -45,23 +42,10 @@ export default function BlogcardsContainer({ data }) {
                   {truncateByChars(post.title, TITLE_LIMIT)}
                 </h3>
 
-                {/* {post.content &&
-                  post.content.length > 0 &&
-                  post.content[0].text && (
-                    <p className="text-sm text-para">
-                      {truncateByChars(post.content[0].text, EXCERPT_LIMIT)}
-                    </p>
-                  )} */}
-
                 <div className="mt-2">
-              
-                    <Link
-                      href={`/blog/${slug}`}
-                    >
-                      <Buttonfill>
-                        Read More →
-                      </Buttonfill>
-                    </Link>
+                  <Link href={`/blogs/${slug}`}>
+                    <Buttonfill>Read More →</Buttonfill>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -5,7 +5,10 @@ import SectionBlock from "../components/servicescomponents/SectionBlock";
 import FeatureList from "../components/servicescomponents/FeatureList";
 import ProcessSteps from "../components/servicescomponents/ProcessSteps";
 
-import { HomeheaderTitles, semMarketingdata } from "../data.jsx";
+import { semheaderTitles, semMarketingdata } from "../data.jsx";
+import { semPageSEO } from "../seo";
+
+export const metadata = semPageSEO;
 
 export default function index() {
   const data = semMarketingdata;
@@ -13,7 +16,7 @@ export default function index() {
     <main className="w-full mx-auto bg-primary pt-20">
       {/* Header + Navbar */}
       <div className="fixed inset-x-0 top-0 z-50">
-        <Header data={HomeheaderTitles} />
+        <Header data={semheaderTitles} />
         <Navbar />
       </div>
 

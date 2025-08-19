@@ -2,12 +2,13 @@
 import React, { useEffect, useState } from 'react';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
+import Image from 'next/image';
 
 
 export const MemberCard = ({ image, name, role }) => {
   return (
     <div className="relative shadow-md h-60 w-full group hover:scale-100 transition-transform duration-300 overflow-hidden">
-      <img
+      <Image
         src={image}
         alt={name}
         className="h-full w-full object-cover absolute left-0 top-0 grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-300"

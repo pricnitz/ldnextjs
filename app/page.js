@@ -8,7 +8,8 @@ import Successstory from "./components/homecomponents/Successstory";
 import Coreteam from "./components/homecomponents/Coreteam";
 import History from "./components/homecomponents/History";
 import Testimonial from "./components/homecomponents/Testimonial";
-import { HomeheaderTitles, Whatwedodata, Allservicesdata, successStoriesdata, teamMembersdata, historyData, testimonialsdata, homePageSEO } from './data.jsx';
+import { HomeheaderTitles, Whatwedodata, Allservicesdata, successStoriesdata, teamMembersdata, historyData, testimonialsdata } from './data.jsx';
+import { homePageSEO } from "./seo";
 
 // SEO Metadata for the Home page
 export const metadata = homePageSEO;
@@ -27,7 +28,9 @@ export default function Home() {
       <section id="services">
         <Whatwedo data={Whatwedodata} />
       </section>
-      <Allservices data={Allservicesdata} />
+      <section id="allservices">
+        <Allservices data={Allservicesdata} />
+      </section>
       <div className="bg-cover bg-top h-auto w-full" style={{ backgroundImage: `url('/assets/banners/1.jpeg')` }}>
         <Successstory data={successStoriesdata} />
       </div>

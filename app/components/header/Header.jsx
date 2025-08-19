@@ -1,13 +1,10 @@
-
-import React from 'react';
-import Marquee from "react-fast-marquee"; // Correct import
+import Marquee from "react-fast-marquee"; 
 
 export default function Header({ data }) {
-  const { title } = data;
+  const title = data.title || "We are a professional Web Development & Digital Marketing Company in Bhopal.";
 
   return (
     <div className='bg-primary w-full overflow-hidden'>
-      {/* Use the Marquee component with its props */}
       <Marquee 
         className='max-w-4xl mx-auto p-1' 
         pauseOnHover={true} 

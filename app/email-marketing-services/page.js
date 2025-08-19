@@ -5,7 +5,10 @@ import SectionBlock from "../components/servicescomponents/SectionBlock";
 import FeatureList from "../components/servicescomponents/FeatureList";
 import ProcessSteps from "../components/servicescomponents/ProcessSteps";
 
-import { HomeheaderTitles, emailMarketingdata } from "../data.jsx";
+import { emailMarketingheaderTitles, emailMarketingdata } from "../data.jsx";
+import { emailmarketingPageSEO } from "../seo";
+
+export const metadata = emailmarketingPageSEO;
 
 export default function index() {
   const data = emailMarketingdata; 
@@ -13,7 +16,7 @@ export default function index() {
     <main className="w-full mx-auto bg-primary pt-20">
       {/* Header + Navbar */}
       <div className="fixed inset-x-0 top-0 z-50">
-        <Header data={HomeheaderTitles} />
+        <Header data={emailMarketingheaderTitles} />
         <Navbar />
       </div>
 

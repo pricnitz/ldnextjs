@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { Raleway } from 'next/font/google';
 import Footer from "./components/Footer/Footer";
+import Socillinks from "./components/sociallinks/Socillinks";
 import "./globals.css";
 
 
@@ -27,14 +28,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${raleway.variable} antialiased`}
-
+        suppressHydrationWarning
       >
-        
         {children}
         <Footer />
+        <Socillinks />
       </body>
     </html>
   );

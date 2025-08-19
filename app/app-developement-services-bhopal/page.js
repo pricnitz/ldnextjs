@@ -5,7 +5,10 @@ import SectionBlock from "../components/servicescomponents/SectionBlock";
 import FeatureList from "../components/servicescomponents/FeatureList";
 import ProcessSteps from "../components/servicescomponents/ProcessSteps";
 
-import { HomeheaderTitles, mobileAppData  } from "../data.jsx";
+import { mobileheaderTitles, mobileAppData  } from "../data.jsx";
+import { mobileAppPageSEO } from "../seo";
+
+export const metadata = mobileAppPageSEO ;
 
 export default function index() {
   const data = mobileAppData ; 
@@ -13,7 +16,7 @@ export default function index() {
     <main className="w-full mx-auto bg-primary pt-20">
       {/* Header + Navbar */}
       <div className="fixed inset-x-0 top-0 z-50">
-        <Header data={HomeheaderTitles} />
+        <Header data={mobileheaderTitles} />
         <Navbar />
       </div>
 

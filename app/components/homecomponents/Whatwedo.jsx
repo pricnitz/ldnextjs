@@ -1,6 +1,7 @@
 import React from 'react'
 import { Buttonfill } from '../ui/buttons/Buttons'
 import Link from 'next/link'
+import Image from 'next/image'
 
 function Whatwedo({ data }) {
     return (
@@ -16,9 +17,11 @@ function Whatwedo({ data }) {
                         ))
                     }
                     <div className='mt-8 max-w-[250px]'>
+                       <Link href="/#allservices">
                         <Buttonfill >
                             View All Services
                         </Buttonfill>
+                       </Link>
                     </div>
                 </div>
                 <div className='grid grid-cols-2 md:grid-cols-3 '>
@@ -29,7 +32,7 @@ function Whatwedo({ data }) {
                                 href={card.link || "#"}  // <-- Add href
                                 className="bg-btn p-4 border-black m-0.5 shadow-md flex flex-col justify-center text-center hover:shadow-lg hover:bg-black transition"
                             >
-                                <img src={card.img} alt={card.title} className="w-10 mx-auto" />
+                                <Image src={card.img} alt={card.title} className="w-10 mx-auto" />
                                 <h3 className="mt-2 text-sm text-para">{card.title}</h3>
                             </Link>
                         ))

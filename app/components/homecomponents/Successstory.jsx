@@ -1,6 +1,8 @@
  "use client"
 import React, { useState } from 'react';
 import { FaArrowRight } from "react-icons/fa";
+import Image from 'next/image';
+
 function Successstory({ data }) {
     const [activeTab, setActiveTab] = useState(data[0].id); // default to first item
 
@@ -80,7 +82,7 @@ function Successstory({ data }) {
                             className={` rounded-lg hover:grayscale-0 transition delay-300 cursor-pointer ${activeTab === story.id ? 'grayscale-0' : 'grayscale '
                                 }`}
                         >
-                            <img
+                            <Image
                                 src={story.logo}
                                 alt={story.title}
                                 className="w-full object-contain"

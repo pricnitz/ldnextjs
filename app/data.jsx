@@ -1,7 +1,6 @@
 import Link from "next/link";
-import banner1 from "@/public/assets/banners/5.jpeg";
-import banner3 from "@/public/assets/banners/3.jpeg";
 
+// portfolio  images
 import pf1 from "../public/assets/portfolioimg/adi1.png";
 import pf2 from "../public/assets/portfolioimg/adi2.png";
 import pf3 from "../public/assets/portfolioimg/adi3.png";
@@ -27,47 +26,110 @@ import pf22 from "../public/assets/portfolioimg/lys1.png";
 import pf23 from "../public/assets/portfolioimg/lys2.png";
 import pf24 from "../public/assets/portfolioimg/lys3.png";
 
-// ===================================================================================> Portfolio starts frome here
-export const portfolioData = [
-    {
-        title: "Project 1",
-        images: [
-            pf1,
-            pf2,
-            pf3,
-            pf4,
-            pf5,
-            pf6,
-            pf7,
-            pf8,
-            pf9,
-            pf10,
-            pf11,
-            pf12,
-            pf13,
-            pf14,
-            pf15,
-            pf16,
-            pf17,
-            pf18,
-            pf19,
-            pf20,
-            pf21,
-            pf22,
-            pf23,
-            pf24
-        ]// ✅ array of images
-    },
-];
+// home page images
 
-// ====================================================================================> home page starts from here
+// service images
+import service1 from "../public/assets/svg/dg.svg";
+import service2 from "../public/assets/svg/seo.svg";
+import service3 from "../public/assets/svg/ppc.svg";
+import service4 from "../public/assets/svg/sem.svg";
+import service5 from "../public/assets/svg/sm.svg";
+import service6 from "../public/assets/svg/cw.svg";
+import service7 from "../public/assets/svg/wd.svg";
+import service8 from "../public/assets/svg/ap.svg";
+import service9 from "../public/assets/svg/email.svg";
+import service10 from "../public/assets/svg/ai.svg";
 
+// success Stories images 
+
+import successstorieslogo1 from "../public/assets/logos/1.png";
+import successstorieslogo2 from "../public/assets/logos/2.png";
+import successstorieslogo3 from "../public/assets/logos/3.png";
+import successstorieslogo4 from "../public/assets/logos/4.png";
+
+// team members images starts from here 
+import teamMember1 from "../public/assets/ourteams/2.jpeg";
+import teamMember2 from "../public/assets/ourteams/ravisaxena.jpg";
+import teamMember3 from "../public/assets/ourteams/1.jpeg"
+import teamMember4 from "../public/assets/ourteams/prdigi.jpeg"
+import teamMember5 from "../public/assets/ourteams/amrdevs.png"
+import teamMember6 from "../public/assets/ourteams/vivek_it.jpg"
+import teamMember8 from "../public/assets/ourteams/prabhakar.jpg"
+import teamMember9 from "../public/assets/ourteams/Pogo.jpg"
+
+// history images 
+import banner1 from "@/public/assets/banners/5.jpeg";
+import banner2 from "@/public/assets/banners/3.jpeg";
+
+// blog images starts from here 
+import blogimg1 from "../public/assets/blogs/1.jpg";
+import blogimg2 from "../public/assets/blogs/2.png";
+import blogimg3 from "../public/assets/blogs/3.png";
+import blogimg4 from "../public/assets/blogs/4.png";
+import blogimg5 from "../public/assets/blogs/5.png";
+import blogimg6 from "../public/assets/blogs/6.png";
+import blogimg7 from "../public/assets/blogs/7.png";
+
+import servicepageimage1 from "../public/assets/services/dm.png"
+import servicepageimage2 from "../public/assets/services/seo.png"
+import servicepageimage3 from "../public/assets/services/ppc.png"
+import servicepageimage4 from "../public/assets/services/smm.png"
+import servicepageimage5 from "../public/assets/services/cw.png"
+import servicepageimage6 from "../public/assets/services/wd.png"
+import servicepageimage7 from "../public/assets/services/app.png"
+import servicepageimage8 from "../public/assets/services/em.svg"
+import servicepageimage9 from "../public/assets/services/em.svg"
+// import servicepageimage9 from "../public/assets/services/ai.svg"
+
+//=====================================================================================> header titles 
 export const HomeheaderTitles = {
     title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
 }
+
 export const BlogheaderTitles = {
     title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
 }
+export const CarrerheaderTitles = {
+    title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
+}
+
+export const DigitalmarketingheaderTitles = {
+    title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
+}
+export const seoMarketingTitles = {
+    title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
+}
+
+export const ppcheaderTitles = {
+    title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
+}
+export const smmheaderTitles = {
+    title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
+}
+export const semheaderTitles = {
+    title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
+}
+export const contentheaderTitles = {
+    title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
+}
+export const webDevelopmenheaderTitles = {
+    title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
+}
+export const mobileheaderTitles = {
+    title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
+}
+export const emailMarketingheaderTitles = {
+    title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
+}
+export const aiMarketingheaderTitles = {
+    title: "We are a professional website Marketing & Digital Marketing Company in Bhopal."
+}
+export const portfolioheaderTitles = {
+    title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
+}
+
+
+// ====================================================================================> home page starts from here
 
 export const Whatwedodata = {
     title: "What We Do",
@@ -89,52 +151,52 @@ export const Whatwedodata = {
     cards: [
         {
             title: "Digital Marketing",
-            img: "https://leadsandbrands.com/public/images/icon/n-icon/dg.svg",
+            img: service1,
             link: "/digital-marketing-services-bhopal"
         },
         {
             title: "SEO",
-            img: "https://leadsandbrands.com/public/images/icon/n-icon/seo.svg",
+            img: service2,
             link: "/seo-company-bhopal"
         },
         {
             title: "PPC",
-            img: "https://leadsandbrands.com/public/images/icon/n-icon/ppc.svg",
+            img: service3,
             link: "/ppc-services-bhopal"
         },
         {
             title: "SEM",
-            img: "https://leadsandbrands.com/public/images/icon/n-icon/sem.svg",
+            img: service4,
             link: "/sem-services-bhopal"
         },
         {
             title: "SMM",
-            img: "https://leadsandbrands.com/public/images/icon/n-icon/sm.svg",
+            img: service5,
             link: "/social-media-services-bhopal"
         },
         {
             title: "Content",
-            img: "https://leadsandbrands.com/public/images/icon/n-icon/cw.svg",
+            img: service6,
             link: "/content-development-services"
         },
         {
             title: "Web Development",
-            img: "https://leadsandbrands.com/public/images/icon/n-icon/wd.svg",
+            img: service7,
             link: "/web-developement-services-bhopal"
         },
         {
             title: "App Development",
-            img: "https://leadsandbrands.com/public/images/icon/n-icon/ap.svg",
+            img: service8,
             link: "/app-developement-services-bhopal"
         },
         {
             title: "Email Marketing",
-            img: "https://leadsandbrands.com/public/images/icon/n-icon/email.svg",
+            img: service9,
             link: "/email-marketing-services"
         },
         {
             title: "AI Marketing",
-            img: "https://leadsandbrands.com/public/images/icon/ai.svg",
+            img: service10,
             link: "/ai-marketing-bhopal"
         }
     ]
@@ -144,7 +206,7 @@ export const Allservicesdata = [
     {
         title: "Digital Marketing",
         slug: "digital-marketing",
-        img: "https://leadsandbrands.com/public/images/icon/n-icon/dg.svg",
+        img: service1,
         description:
             "One of the most popular marketing techniques of modern times is digital marketing. Your company requires a digital marketing agency in Bhopal that well appreciates the constraints and potential of various digital media platforms, but can provide the best digital marketing services in Bhopal via various means such as Search Engine Optimization (SEO), Social Media Marketing, Paid Search (PPC) advertising, Effective Content Marketing, Email Marketing, and Mobile Marketing among many others.",
         link: "/digital-marketing-services-bhopal"
@@ -152,7 +214,7 @@ export const Allservicesdata = [
     {
         title: "SEO",
         slug: "seo",
-        img: "https://leadsandbrands.com/public/images/icon/n-icon/seo.svg",
+        img: service2,
         description:
             "At leadsandBrands, you are not just getting digital presence for your product or website but also complete search engine optimization solutions from scratch. As we are one of the Best SEO company and agency in Bhopal, Madhya Pradesh we have been gone through from zero to infinite level weather you want leads, sales, conversions for your website we will help you in every aspect to get you real customers for your business as a SEO company in Bhopal we not work on false promises we work from the start of the work to end of the campaign until you get desired results. Weather you have a business in real estate, medical, education, travel we are always ready to work with you.",
         link: "/seo-company-bhopal"
@@ -160,7 +222,7 @@ export const Allservicesdata = [
     {
         title: "Paid Search Marketing",
         slug: "ppc",
-        img: "https://leadsandbrands.com/public/images/icon/n-icon/ppc.svg",
+        img: service3,
         description:
             "PPC (Pay Per Click) is a part of search engine marketing and all about receiving the appropriate quality leads for your business. Leads and Brands, an expert PPC company in Bhopal, has a special team for PPC advertising in Bhopal that assists your business in targeting the appropriate keywords and audiences in the right way.",
         link: "/ppc-services-bhopal"
@@ -168,7 +230,7 @@ export const Allservicesdata = [
     {
         title: "Social Media",
         slug: "social-media",
-        img: "https://leadsandbrands.com/public/images/icon/n-icon/sm.svg",
+        img: service4,
         description:
             "Social Media Marketing assists your company in establishing a strong online presence in the current market. We are all aware of how much time one spends on social media platforms. Capitalizing on this advantage, Leads and Brands - a world-class social media agency in Bhopal - has created robust strategies to rebrand your company as a well-established brand on all social media platforms. Our dedicated team of experts offers best-in-class social media services in Bhopal, focusing on successful digital engagement.",
         link: "/social-media-services-bhopal"
@@ -176,7 +238,7 @@ export const Allservicesdata = [
     {
         title: "Content Marketing",
         slug: "content-marketing",
-        img: "https://leadsandbrands.com/public/images/icon/n-icon/cw.svg",
+        img: service5,
         description: [
             "Good content takes individuals through the conversion process and makes them interested in your company. Irrelevant content makes visitors bounce off your website and leave your sales funnel.",
             "Being a top content writing company in bhopal, we design useful and engaging content that transports your readers on a journey - from minimal brand familiarity to seriously thinking about your solution. Our bhopal content development company is expert in developing top-notch content that is engaging, shareable, and sales-driving.",
@@ -187,7 +249,7 @@ export const Allservicesdata = [
     {
         title: "Web Development",
         slug: "web-development",
-        img: "https://leadsandbrands.com/public/images/icon/n-icon/wd.svg",
+        img: service6,
         description: [
             "Leads and Brands is a renowned web development company in Bhopal. We concentrate on our client's vision and requirements and provide complete custom website development services. Our special team of website designing and web development has always given fully responsive, mobile-friendly, and SEO-friendly sites. Our development team knows everything and is willing to bring your ideas to fully functional reality.",
             "Leads and Brands is a top Website Designing Company in Bhopal. We can guarantee you the best cost-effective and optimised solution for your needs. We identify it as the best web developing or web designing company in Bhopal and in the business world. Being the top web development services in Bhopal, we are convinced that your website must be able to turn visitors into paying customers. That's why we review all the major points of our client's website and provide a seamless and satisfying experience.",
@@ -198,7 +260,7 @@ export const Allservicesdata = [
     {
         title: "App Development",
         slug: "app-development",
-        img: "https://leadsandbrands.com/public/images/icon/n-icon/ap.svg",
+        img: service7,
         description:
             [
                 "Leads and Brands is a top mobile app development firm in Bhopal, providing custom mobile app development services in Bhopal as per your business requirements. In this age of digitalization, a mobile application is as important as a website for business growth. We specialize in creating top-performing Android applications with innovative, secure, and intuitive designs. Regular updates are also provided by us so that your app remains competitive.",
@@ -209,7 +271,7 @@ export const Allservicesdata = [
     {
         title: "Email Marketing",
         slug: "email-marketing",
-        img: "https://leadsandbrands.com/public/images/icon/n-icon/email.svg",
+        img: service8,
         description:
             [
                 "Email marketing is the only platform where users voluntarily choose to receive messages. The majority of companies use this platform to communicate with customers who have opted-in voluntarily, making it one of the most successful marketing strategies. As these users are already interested in your product or services, email marketing has a higher rate of conversion.",
@@ -221,7 +283,7 @@ export const Allservicesdata = [
     {
         title: "Bulk Messaging",
         slug: "bulk-messaging",
-        img: "https://leadsandbrands.com/public/images/icon/n-icon/email.svg",
+        img: service9,
         description:
             "Bulk messaging is all about sending messages to our clients for remiding about our services. And also if you introduce new product or services in market and you want to inform your customers you can take the help of bulk messaging. There are many software in market for sending and receiving bulk SMS.",
         link: "/"
@@ -229,7 +291,7 @@ export const Allservicesdata = [
     {
         title: "Google Local Listing",
         slug: "google-local-listing",
-        img: "https://leadsandbrands.com/public/images/icon/n-icon/seo.svg",
+        img: service10,
         description:
             "Google local listing also known as google my business, where you can put all information about your company. Your address, your services your website, and everything you want to share, as much relevant possible information as possible, especially physical location and keywords.",
         link: "/"
@@ -237,7 +299,7 @@ export const Allservicesdata = [
     {
         title: "E-commerce Solution",
         slug: "ecommerce-solution",
-        img: "https://leadsandbrands.com/public/images/icon/n-icon/wd.svg",
+        img: service10,
         description:
             "If you have an online business and you're having long-term business goals then you must need an e-commerce website. It'll help your business to get more traffic and sales. At Leads and Brands, we use advanced and innovative software to build engaging user-friendly websites or software. Which helps your customer to find enjoyable and easy to navigate designs.",
         link: "/"
@@ -245,7 +307,7 @@ export const Allservicesdata = [
     {
         title: "Graphic Design",
         slug: "graphic-design",
-        img: "https://leadsandbrands.com/public/images/icon/n-icon/cw.svg",
+        img: service10,
         description:
             "At Leads and Brands, we offer professional and creative graphic services which helps company to build brand image in market and reflect your unique identity.",
         link: "/"
@@ -253,7 +315,7 @@ export const Allservicesdata = [
     {
         title: "AI Marketing",
         slug: "ai-marketing",
-        img: "https://leadsandbrands.com/public/images/icon/ai.svg",
+        img: service10,
         description:
             "Leads and Brands is proud to be Bhopal's first AI marketing agency. We specialize in using artificial intelligence to boost digital marketing strategies, offering innovative solutions tailored for businesses. With expertise in predictive analytics, personalized automation, and more, we redefine marketing excellence in Bhopal's dynamic marketplace. Partner with us to stay ahead with cutting-edge AI technologies and achieve unparalleled growth and success.",
         link: "/ai-marketing-bhopal"
@@ -281,7 +343,7 @@ export const successStoriesdata = [
             { label: "Investment", from: "0.12M", to: "0.10M", change: "-17%" }
         ],
         note: "*Numbers have been modified for compliance purposes.",
-        logo: "https://leadsandbrands.com/public/images/brands/1.png"
+        logo: successstorieslogo1
     },
     {
         id: 2,
@@ -302,7 +364,7 @@ export const successStoriesdata = [
             { label: "Investment", from: "0.40M", to: "0.41M", change: "+2%" }
         ],
         note: "*Numbers have been modified for compliance purposes.",
-        logo: "https://leadsandbrands.com/public/images/brands/2.png"
+        logo: successstorieslogo2
     },
     {
         id: 3,
@@ -323,7 +385,7 @@ export const successStoriesdata = [
             { label: "Investment", from: "0.1M", to: "0.13M", change: "+3%" }
         ],
         note: "*Numbers have been modified for compliance purposes.",
-        logo: "https://leadsandbrands.com/public/images/brands/3.png"
+        logo: successstorieslogo3
     },
     {
         id: 4,
@@ -344,7 +406,7 @@ export const successStoriesdata = [
             { label: "Investment", from: "0.13M", to: "0.15M", change: "+15%" }
         ],
         note: "*Numbers have been modified for compliance purposes.",
-        logo: "https://leadsandbrands.com/public/images/brands/4.png"
+        logo: successstorieslogo4
     }
 ];
 
@@ -352,42 +414,42 @@ export const teamMembersdata = [
     {
         name: "Sanjay - FMS-Delhi",
         role: "CEO",
-        image: "https://leadsandbrands.com/public/images/team/2.jpeg"
+        image: teamMember1
     },
     {
         name: "Ravi - IIM-A",
         role: "Head Strategy & Planning",
-        image: "https://leadsandbrands.com/public/images/team/ravisaxena.jpg"
+        image: teamMember2
     },
     {
         name: "Praharsh",
         role: "Chief Marketing Officer",
-        image: "https://leadsandbrands.com/public/images/team/1.jpeg"
+        image: teamMember3
     },
     {
         name: "Praveen",
         role: "Head-Digital Marketing",
-        image: "https://leadsandbrands.com/public/images/team/prdigi.jpeg"
+        image: teamMember4
     },
     {
         name: "Amresh",
         role: "Senior Developer",
-        image: "https://leadsandbrands.com/public/images/team/amrdevs.png"
+        image: teamMember5
     },
     {
         name: "Vivek Anand",
         role: "Developer",
-        image: "https://leadsandbrands.com/public/images/team/vivek_it.jpg"
+        image: teamMember6
     },
     {
         name: "Prabhakar Singh",
         role: "Digital Marketing Specialist",
-        image: "https://leadsandbrands.com/public/images/team/prabhakar.jpg"
+        image: teamMember8
     },
     {
         name: "Pogo",
         role: "Happiness Officer",
-        image: "https://leadsandbrands.com/public/images/team/Pogo.jpg"
+        image: teamMember9
     }
 ];
 
@@ -408,7 +470,7 @@ export const historyData = [
         }
     },
     {
-        img: banner3,
+        img: banner2,
         title: "Nowadays",
         paragraphs: [
             "In 2015, we were aware of the internet's rapid expansion and saw that social media would be the driving force of the future of marketing. We were motivated to learn about digital marketing—its possibilities, benefits compared to conventional media, and how businesses could use online channels for hyper growth.",
@@ -471,6 +533,8 @@ export const testimonialsdata = [
 
 // ===================================================================================> Blog page data starts from here 
 
+
+
 export const Blogherodata = {
     title: "Welcome to Our Blog",
     subtitle: "Stay updated with the latest news and insights."
@@ -479,7 +543,7 @@ export const Blogherodata = {
 export const blogPostsdata = [
     {
         "title": "On-Page SEO vs Off-Page SEO: A Quick Guide",
-        "image": "https://leadsandbrands.com/public/images/blog/On-Page SEO vs Off-Page SEO.jpg",
+        "image": blogimg1,
         "content": [
             {
                 "type": "paragraph",
@@ -579,7 +643,7 @@ export const blogPostsdata = [
     },
     {
         "title": "Performance Marketing: Maximizing ROI with Data-Driven Ads",
-        "image": "https://leadsandbrands.com/public/images/blog/3.png",
+        "image": blogimg2,
         "content": [
             {
                 "type": "heading",
@@ -737,7 +801,7 @@ export const blogPostsdata = [
     },
     {
         "title": "AI in Digital Marketing: How Businesses Can Stay Ahead",
-        "image": "https://leadsandbrands.com/public/images/blog/2.png",
+        "image": blogimg3,
         "content": [
             {
                 "type": "heading",
@@ -976,7 +1040,7 @@ export const blogPostsdata = [
     },
     {
         "title": "SEO Trends 2025: What Marketers Need to Know",
-        "image": "https://leadsandbrands.com/public/images/blog/seo2025.png",
+        "image": blogimg4,
         "content": [
             {
                 "type": "heading",
@@ -1231,7 +1295,7 @@ export const blogPostsdata = [
     },
     {
         "title": "Social Media Strategies That Drive Real Engagement",
-        "image": "https://leadsandbrands.com/public/images/blog/socialmedia.png",
+        "image": blogimg5,
         "introduction": "Who doesn’t want social media content that stops people mid-scroll and inspires them to engage? Whether you’re a small business or a thriving brand, social media success lies in one thing—engagement. Likes, shares, comments, and clicks are more than just vanity metrics; they fuel visibility, build trust, and ultimately drive conversions. If you’re on the lookout for digital marketing services in Bhopal or trying to spice up your social media game, here’s a deep dive into strategies that work. Consider this your ultimate guide to turning passive scrollers into active participants.",
         "content": [
             {
@@ -1489,7 +1553,7 @@ export const digitalMarketingData = {
     description: [`One of the most popular marketing techniques of modern times is digital marketing. Your company requires a <a style="color: #ffffff;" href="https://leadsandbrands.com/digital-marketing-services-bhopal">digital marketing agency in Bhopal</a> that well appreciates the constraints and potential of various digital media platforms, but can provide the best <a style="color: #ffffff;" href="https://leadsandbrands.com/digital-marketing-services-bhopal">digital marketing services in Bhopal</a> via various means such as Search Engine Optimization (SEO), Social Media Marketing, Paid Search (PPC) advertising, Effective Content Marketing, Email Marketing, and Mobile Marketing among many others.`],
 
     image: {
-        src: "https://leadsandbrands.com/public/images/icon/dm.png",
+        src: servicepageimage1,
         alt: "Digital Marketing Services",
         style: "w-[406px] float-right"
     },
@@ -1555,7 +1619,7 @@ export const seoMarketingData = {
     },
 
     image: {
-        src: "https://leadsandbrands.com/public/images/icon/seo.png",
+        src: servicepageimage2,
         alt: "SEO services in Bhopal",
         style: {
             maxWidth: "100%",
@@ -1572,7 +1636,7 @@ export const ppcData = {
         `Typically, users click on the number one results that pop up on Google, maximizing conversion opportunities. Google Display ads engage 90% of online users, providing 50% greater traffic opportunity than organic search. As a leading PPC agency in Bhopal, Leads and Brands is known for achieving remarkable paid advertising outcomes.`
     ],
     image: {
-        src: "https://leadsandbrands.com/public/images/icon/ppc.png",
+        src: servicepageimage3,
         alt: "PPC Services",
         style: "pt-20 w-[400px]" // you can pass tailwind utility classes here
     },
@@ -1595,7 +1659,7 @@ export const smmData = {
     description: [`Social Media Marketing assists your company in establishing a strong online presence in the current market. We are all aware of how much time one spends on social media platforms. Capitalizing on this advantage, Leads and Brands - a world-class social media agency in Bhopal - has created robust strategies to rebrand your company as a well-established brand on all social media platforms. Our dedicated team of experts offers best-in-class <a href="https://leadsandbrands.com/social-media-services-bhopal">social media services in Bhopal</a>, focusing on successful digital engagement.`],
 
     image: {
-        src: "https://leadsandbrands.com/public/images/icon/smm.png",
+        src: servicepageimage4,
         alt: "social media services in bhopal",
         style: "w-[300px] mx-auto"
     },
@@ -1637,7 +1701,7 @@ export const semMarketingdata = {
     ],
 
     image: {
-        src: "https://leadsandbrands.com/public/images/icon/sem.png",
+        src: servicepageimage5,
         alt: "SEM services in Bhopal",
         style: {
             width: "435px",
@@ -1667,7 +1731,7 @@ export const contentWritingData = {
     ],
 
     image: {
-        src: "https://leadsandbrands.com/public/images/icon/cw.png",
+        src: servicepageimage6,
         alt: "Content Writing Services in Bhopal",
         style: "w-[437px] mx-auto"
     }
@@ -1681,7 +1745,7 @@ export const webDevelopmentData = {
     ],
 
     image: {
-        src: "https://leadsandbrands.com/public/images/icon/wd.png",
+        src: servicepageimage7,
         alt: "Web Development Company in Bhopal",
         style: "w-[350px] pt-12 mx-auto"
     },
@@ -1712,7 +1776,7 @@ export const mobileAppData = {
     ],
 
     image: {
-        src: "https://leadsandbrands.com/public/images/icon/app.png",
+        src: servicepageimage8,
         alt: "Mobile App Development Services in Bhopal",
         style: "w-[337px] mx-auto"
     },
@@ -1744,7 +1808,7 @@ export const emailMarketingdata = {
     ],
 
     image: {
-        src: "https://leadsandbrands.com/public/images/icon/em.svg",
+        src: servicepageimage8,
         alt: "Email Marketing Icon",
         width: "200px"
     }
@@ -1767,7 +1831,7 @@ export const aiMarketingdata = {
     ],
 
     image: {
-        src: "https://leadsandbrands.com/public/images/icon/samwad.aipageillustration.svg",
+        src: servicepageimage9,
         alt: "AI Marketing Illustration",
         width: "418px",
         style: { paddingTop: "50px" }
@@ -1789,94 +1853,41 @@ export const aiMarketingdata = {
     ]
 };
 
-export const careerPageSEO = {
-    title: 'Lead & Brand - Careers',
-    description: 'Join our team at Lead & Brand and help us drive digital growth for our clients.',
-    keywords: ['careers', 'job openings', 'digital marketing jobs', 'join our team'],
-    openGraph: {
-        title: 'Lead & Brand - Careers',
-        description: 'Explore exciting career opportunities at Lead & Brand.',
-        url: 'https://www.yourwebsite.com/careers',
-        siteName: 'Lead & Brand',
+
+// ===================================================================================> Portfolio starts frome here
+export const portfolioData = [
+    {
+        title: "Project 1",
         images: [
-            {
-                url: '/assets/og-image.jpg',
-                width: 1200,
-                height: 630,
-                alt: 'Lead & Brand Careers',
-            },
-        ],
-        locale: 'en_US',
-        type: 'website',
+            pf1,
+            pf2,
+            pf3,
+            pf4,
+            pf5,
+            pf6,
+            pf7,
+            pf8,
+            pf9,
+            pf10,
+            pf11,
+            pf12,
+            pf13,
+            pf14,
+            pf15,
+            pf16,
+            pf17,
+            pf18,
+            pf19,
+            pf20,
+            pf21,
+            pf22,
+            pf23,
+            pf24
+        ]// ✅ array of images
     },
-    twitter: {
-        card: 'summary_large_image',
-        title: 'Lead & Brand - Careers',
-        description: 'Join our team and help us drive digital growth for our clients.',
-        creator: '@yourtwitterhandle',
-        images: ['/assets/twitter-image.jpg'],
-    },
-};
+];
 
 
 
-// ===================================================================================> seo parts come from here 
 
-export const homePageSEO = {
-    title: 'Lead & Brand - Your Partner in Digital Growth',
-    description: 'Lead & Brand is a full-service digital agency specializing in web design, SEO, social media marketing, and content creation. We help businesses grow their online presence and connect with their target audience.',
-    keywords: ['digital marketing', 'web design', 'SEO', 'social media marketing', 'content creation', 'branding agency', 'leads and brand'],
-    openGraph: {
-        title: 'Lead & Brand - Your Partner in Digital Growth',
-        description: 'Specializing in web design, SEO, and social media marketing to boost your brand.',
-        url: 'https://www.yourwebsite.com',
-        siteName: 'Lead & Brand',
-        images: [
-            {
-                url: '/assets/og-image.jpg',
-                width: 1200,
-                height: 630,
-                alt: 'Lead & Brand Digital Agency',
-            },
-        ],
-        locale: 'en_US',
-        type: 'website',
-    },
-    twitter: {
-        card: 'summary_large_image',
-        title: 'Lead & Brand - Digital Marketing Experts',
-        description: 'We drive digital growth through expert web design, SEO, and social media strategies.',
-        creator: '@yourtwitterhandle',
-        images: ['/assets/twitter-image.jpg'],
-    },
-};
-
-export const blogPageSEO = {
-    title: 'Lead & Brand - Your Partner in Digital Growth',
-    description: 'Lead & Brand is a full-service digital agency specializing in web design, SEO, social media marketing, and content creation. We help businesses grow their online presence and connect with their target audience.',
-    keywords: ['digital marketing', 'web design', 'SEO', 'social media marketing', 'content creation', 'branding agency', 'leads and brand'],
-    openGraph: {
-        title: 'Lead & Brand - Your Partner in Digital Growth',
-        description: 'Specializing in web design, SEO, and social media marketing to boost your brand.',
-        url: 'https://www.yourwebsite.com',
-        siteName: 'Lead & Brand',
-        images: [
-            {
-                url: '/assets/og-image.jpg',
-                width: 1200,
-                height: 630,
-                alt: 'Lead & Brand Digital Agency',
-            },
-        ],
-        locale: 'en_US',
-        type: 'website',
-    },
-    twitter: {
-        card: 'summary_large_image',
-        title: 'Lead & Brand - Digital Marketing Experts',
-        description: 'We drive digital growth through expert web design, SEO, and social media strategies.',
-        creator: '@yourtwitterhandle',
-        images: ['/assets/twitter-image.jpg'],
-    },
-};
 

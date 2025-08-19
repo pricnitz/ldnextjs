@@ -4,17 +4,20 @@ import Serviceshero from "../components/servicescomponents/Serviceshero";
 import SectionBlock from "../components/servicescomponents/SectionBlock";
 import FeatureList from "../components/servicescomponents/FeatureList";
 import ProcessSteps from "../components/servicescomponents/ProcessSteps";
+import { DigitalmarketingheaderTitles, digitalMarketingData } from "../data.jsx";
+import { digitalmarketingPageSEO } from "../seo";
 
-import { HomeheaderTitles, digitalMarketingData } from "../data.jsx";
+export const metadata = digitalmarketingPageSEO;
 
 export default function index() {
-  const data = digitalMarketingData; // or ppcData
+  const data = digitalMarketingData;
+
 
   return (
     <main className="w-full mx-auto bg-primary pt-20">
       {/* Header + Navbar */}
       <div className="fixed inset-x-0 top-0 z-50">
-        <Header data={HomeheaderTitles} />
+        <Header data={DigitalmarketingheaderTitles} />
         <Navbar />
       </div>
 

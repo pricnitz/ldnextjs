@@ -6,6 +6,9 @@ import FeatureList from "../components/servicescomponents/FeatureList";
 import ProcessSteps from "../components/servicescomponents/ProcessSteps";
 
 import { HomeheaderTitles, aiMarketingdata } from "../data.jsx";
+import { aiMarketingPageSEO } from "../seo";
+
+export const metadata = aiMarketingPageSEO;
 
 export default function index() {
   const data = aiMarketingdata; 
