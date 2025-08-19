@@ -4,14 +4,14 @@ export default function Header({ data }) {
   const title = data.title || "We are a professional Web Development & Digital Marketing Company in Bhopal.";
 
   return (
-    <div className='bg-primary w-full overflow-hidden'>
+    <div className='bg-primary w-full overflow-hidden relative z-50'>
       <Marquee 
-        className='max-w-4xl mx-auto p-1' 
+        className='md:max-w-4xl max-w-[320px] mx-auto p-1 ' 
         pauseOnHover={true} 
         speed={50}
         gradient={false}
       >
-        <h1 className='whitespace-nowrap text-para'>
+        <h1 className='whitespace-nowrap text-para '>
           {title}
         </h1>
       </Marquee>

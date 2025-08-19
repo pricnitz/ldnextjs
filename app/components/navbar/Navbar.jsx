@@ -87,7 +87,7 @@ export default function Navbar() {
 
       {/* Sidebar for mobile */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-primary text-white px-10 pt-20 transform ${
+        className={`fixed top-0 right-0 h-full w-64 bg-primary text-white px-10 pt-30 transform ${
           isSidebarOpen ? 'translate-x-0' : 'translate-x-full'
         } transition-transform duration-300 ease-in-out z-40 md:hidden flex flex-col justify-between`}
       >

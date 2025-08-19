@@ -35,7 +35,9 @@ export default function RootLayout({ children }) {
       >
         {children}
         <Footer />
-        <Socillinks />
+        <div className="md:block hidden">
+          <Socillinks />
+        </div>
       </body>
     </html>
   );
