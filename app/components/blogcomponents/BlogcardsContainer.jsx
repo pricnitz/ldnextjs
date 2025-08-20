@@ -2,7 +2,7 @@ import React from "react";
 import { Buttonfill } from "../ui/buttons/Buttons";
 import Image from "next/image";
 import Link from "next/link";
-import { slugify } from "@/app/utils/slugify";
+
 
 function truncateByChars(str, maxChars) {
   if (!str) return "";
@@ -18,15 +18,13 @@ export default function BlogcardsContainer({ data }) {
   return (
     <div className="w-full mx-auto bg-primary">
       <div className="max-w-6xl mx-auto py-10 md:py-20 md:px-4 px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {data.map((post) => {
-          const slug = slugify(post.title);
-
+        {data.map((post , index) => {
           return (
             <div
-              key={slug}
+              key={index}
               className="bg-secondary rounded overflow-hidden shadow-sm hover:shadow-md transition-transform duration-200 hover:-translate-y-1"
             >
-              {/* Image */}
+  
               <div className="aspect-[16/9] overflow-hidden">
                 <Image
                   src={post.image}
@@ -36,14 +34,13 @@ export default function BlogcardsContainer({ data }) {
                 />
               </div>
 
-              {/* Content */}
               <div className="p-5 flex flex-col gap-3">
                 <h3 className="text-lg font-raleway text-white">
                   {truncateByChars(post.title, TITLE_LIMIT)}
                 </h3>
 
                 <div className="mt-2">
-                  <Link href={`/blogs/${slug}`}>
+                  <Link href={`/${post.link}`}>
                     <Buttonfill>Read More →</Buttonfill>
                   </Link>
                 </div>

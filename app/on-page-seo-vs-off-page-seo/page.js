@@ -1,32 +1,12 @@
-import { blogPostsdata } from "@/app/data";
-import Link from "next/link";
-import Image from "next/image";
-import Navbar from "@/app/components/navbar/Navbar";
-import Header from "@/app/components/header/Header";
-import { slugify } from "@/app/utils/slugify";
+// FILE: app/on-page-seo-vs-off-page-seo/page.jsx
 
-export async function generateMetadata({ params }) {
-  const blog = blogPostsdata.find(
-    (post) => slugify(post.title) === params.slug
-  );
+import Image from 'next/image';
+import Link from 'next/link';
+import Navbar from '@/app/components/navbar/Navbar'; // Assuming component paths
+import Header from '@/app/components/header/Header';
+import { blogPostsdata } from '../data';
 
-  if (!blog) {
-    return {
-      title: "Blog Not Found | MySite",
-      description: "The blog you are looking for does not exist."
-    };
-  }
-
-  return {
-    title: `${blog.title} | MySite`,
-    description: blog.content?.[0]?.text?.slice(0, 150) || "Read our blog post.",
-    openGraph: {
-      title: blog.title,
-      description: blog.content?.[0]?.text?.slice(0, 150),
-      images: [blog.image],
-    }
-  };
-}
+const { title , image, content} = blogPostsdata[0];
 
 function renderContent(content) {
   return content.map((block, idx) => {
@@ -71,49 +51,32 @@ function renderContent(content) {
   });
 }
 
-export default async function BlogDetails({ params }) {
-  const blog = blogPostsdata.find(
-    (post) => slugify(post.title) === params.slug
-  );
 
-  if (!blog) {
+export default function OnPageSeoPage() {
     return (
-      <main className="w-full mx-auto bg-primary pt-20">
-        <div className="max-w-6xl mx-auto py-20 px-4 text-center">
-          <h1 className="text-2xl text-white">Blog Not Found</h1>
-          <Link href="/blogs" className="text-para hover:text-white">
-            ← Back to Blogs
-          </Link>
-        </div>
-      </main>
-    );
-  }
-
-  return (
-    <main className='w-full mx-auto bg-primary pt-20'>
+        <main className='w-full mx-auto bg-primary pt-20'>
       <div className="fixed inset-x-0 top-0 z-50">
-        <Header data={blog} />
+        <Header data={title} />
         <Navbar />
       </div>
       <div className='max-w-6xl mx-auto py-10 md:py-20 md:px-10 px-4'>
         <div className="grid md:grid-cols-3 md:gap-4 grid-cols-1 gap-2">
           {/* Main Blog */}
           <div className="col-span-2">
-            <Image src={blog.image} alt={blog.title} width={800} height={400} className="rounded-lg mb-6 object-cover"/>
-            <h1 className="lg:text-3xl md:text-2xl text-xl mb-4 text-white text-raleway">{blog.title}</h1>
-            {renderContent(blog.content)}
+            <Image src={image} alt={title} width={800} height={400} className="rounded-lg mb-6 object-cover"/>
+            <h1 className="lg:text-3xl md:text-2xl text-xl mb-4 text-white text-raleway">{title}</h1>
+            {renderContent(content)}
           </div>
 
-          {/* Related Blogs */}
           <div className="col-span-1">
             <div className="p-4 rounded-lg bg-secondary px-4">
               <h2 className="text-xl font-bold text-white mb-4">Related Blogs</h2>
               <ul className="space-y-4">
-                {blogPostsdata
-                  .filter((post) => post.title !== blog.title)
-                  .slice(0, 5)
+                   {blogPostsdata
+                  .filter((post) => post.title !== title) // Exclude the current post
+                  .slice(0, 5) // Limit to 5 related posts
                   .map((relatedPost) => (
-                    <li key={relatedPost.title} className="flex flex-col">
+                    <li key={relatedPost.id || relatedPost.title} className="flex flex-col">
                       <Image
                         src={relatedPost.image}
                         alt={relatedPost.title}
@@ -122,7 +85,7 @@ export default async function BlogDetails({ params }) {
                         className="w-full h-auto object-cover rounded mb-2"
                       />
                       <Link
-                        href={`/blogs/${slugify(relatedPost.title)}`}
+                        href={relatedPost.link}
                         className="text-para hover:text-white"
                       >
                         {relatedPost.title}
@@ -135,5 +98,5 @@ export default async function BlogDetails({ params }) {
         </div>
       </div>
     </main>
-  );
+    );
 }

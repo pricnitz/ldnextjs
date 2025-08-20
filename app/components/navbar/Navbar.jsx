@@ -3,9 +3,9 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { leadsandbrandlogo } from '@/app/data';
 import Image from 'next/image';
-import { FiMenu, FiX } from 'react-icons/fi'; // Menu and Close icons
-import logo from '../../../public/assets/logos/l.png';
+import { FiMenu, FiX } from 'react-icons/fi'; 
 import Socillinks from '../sociallinks/Socillinks';
 
 export default function Navbar() {
@@ -52,7 +52,7 @@ export default function Navbar() {
       <nav className="relative max-w-7xl mx-auto flex justify-between items-center py-2 z-50">
         {/* Logo */}
         <div className="text-lg font-bold max-w-80 ">
-          <Image src={logo} alt="Logo" className="w-full" width={150} height={50} />
+          <Image src={leadsandbrandlogo} alt="Logo" className="w-full" width={150} height={50} />
         </div>
 
         {/* Desktop nav */}

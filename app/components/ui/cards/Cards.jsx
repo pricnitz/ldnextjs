@@ -7,13 +7,29 @@ import Image from 'next/image';
 
 export const MemberCard = ({ image, name, role }) => {
   return (
-    <div className="relative shadow-md h-60 w-full group hover:scale-100 transition-transform duration-300 overflow-hidden">
+       <div className="relative shadow-md h-60 w-full group overflow-hidden transition-transform duration-300 hover:scale-[1.02] ">
+      {/* Image */}
       <Image
         src={image}
         alt={name}
-        className="h-full w-full object-cover absolute left-0 top-0 grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-300"
+        fill
+        className="
+          object-cover absolute left-0 top-0
+          filter grayscale group-hover:grayscale-0
+          group-hover:scale-110
+          transition-all duration-500 ease-in-out
+        "
       />
-      <div className="absolute bottom-0 z-10 w-full bg-gradient-to-t from-black to-transparent group-hover:from-red-500 group-hover:to-transparent p-4 transition-all duration-300">
+
+      {/* Overlay */}
+      <div
+        className="
+          absolute bottom-0 z-10 w-full 
+          bg-gradient-to-t from-black/70 to-transparent 
+          group-hover:from-red-500/70 group-hover:to-transparent 
+          p-4 transition-all duration-500 ease-in-out
+        "
+      >
         <h5 className="font-bold text-lg text-white">{name}</h5>
         <p className="text-white text-sm">{role}</p>
       </div>

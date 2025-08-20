@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+
+export { default as leadsandbrandlogo } from '../public/assets/logos/l.png';
 // portfolio  images
 import pf1 from "../public/assets/portfolioimg/adi1.png";
 import pf2 from "../public/assets/portfolioimg/adi2.png";
@@ -541,7 +543,8 @@ export const Blogherodata = {
 };
 
 export const blogPostsdata = [
-    {
+    {   
+        "link":"on-page-seo-vs-off-page-seo",
         "title": "On-Page SEO vs Off-Page SEO: A Quick Guide",
         "image": blogimg1,
         "content": [
@@ -642,6 +645,7 @@ export const blogPostsdata = [
         ]
     },
     {
+        "link":"performance-marketing",
         "title": "Performance Marketing: Maximizing ROI with Data-Driven Ads",
         "image": blogimg2,
         "content": [
@@ -800,6 +804,7 @@ export const blogPostsdata = [
         ]
     },
     {
+        "link":"ai-in-digital-marketing",
         "title": "AI in Digital Marketing: How Businesses Can Stay Ahead",
         "image": blogimg3,
         "content": [
@@ -1039,6 +1044,7 @@ export const blogPostsdata = [
         ]
     },
     {
+        "link":"seo-trends",
         "title": "SEO Trends 2025: What Marketers Need to Know",
         "image": blogimg4,
         "content": [
@@ -1294,6 +1300,7 @@ export const blogPostsdata = [
         ]
     },
     {
+        "link":"social-media",
         "title": "Social Media Strategies That Drive Real Engagement",
         "image": blogimg5,
         "introduction": "Who doesn’t want social media content that stops people mid-scroll and inspires them to engage? Whether you’re a small business or a thriving brand, social media success lies in one thing—engagement. Likes, shares, comments, and clicks are more than just vanity metrics; they fuel visibility, build trust, and ultimately drive conversions. If you’re on the lookout for digital marketing services in Bhopal or trying to spice up your social media game, here’s a deep dive into strategies that work. Consider this your ultimate guide to turning passive scrollers into active participants.",
