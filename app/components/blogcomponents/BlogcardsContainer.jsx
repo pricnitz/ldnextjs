@@ -35,11 +35,11 @@ export default function BlogcardsContainer({ data }) {
               </div>
 
               <div className="p-5 flex flex-col gap-3">
-                <h3 className="text-lg font-raleway text-white">
+                <h3 className="text-lg font-raleway text-white min-h-15">
                   {truncateByChars(post.title, TITLE_LIMIT)}
                 </h3>
 
-                <div className="mt-2">
+                <div className="mt-2 align-bottom">
                   <Link href={`/${post.link}`}>
                     <Buttonfill>Read More →</Buttonfill>
                   </Link>

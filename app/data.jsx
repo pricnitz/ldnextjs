@@ -71,6 +71,7 @@ import blogimg4 from "../public/assets/blogs/4.png";
 import blogimg5 from "../public/assets/blogs/5.png";
 import blogimg6 from "../public/assets/blogs/6.png";
 import blogimg7 from "../public/assets/blogs/7.png";
+import blogimg8 from "../public/assets/blogs/8.png";
 
 import servicepageimage1 from "../public/assets/services/dm.png"
 import servicepageimage2 from "../public/assets/services/seo.png"
@@ -543,8 +544,8 @@ export const Blogherodata = {
 };
 
 export const blogPostsdata = [
-    {   
-        "link":"on-page-seo-vs-off-page-seo",
+    {
+        "link": "on-page-seo-vs-off-page-seo",
         "title": "On-Page SEO vs Off-Page SEO: A Quick Guide",
         "image": blogimg1,
         "content": [
@@ -645,7 +646,7 @@ export const blogPostsdata = [
         ]
     },
     {
-        "link":"performance-marketing",
+        "link": "performance-marketing",
         "title": "Performance Marketing: Maximizing ROI with Data-Driven Ads",
         "image": blogimg2,
         "content": [
@@ -804,7 +805,7 @@ export const blogPostsdata = [
         ]
     },
     {
-        "link":"ai-in-digital-marketing",
+        "link": "ai-in-digital-marketing",
         "title": "AI in Digital Marketing: How Businesses Can Stay Ahead",
         "image": blogimg3,
         "content": [
@@ -1044,7 +1045,7 @@ export const blogPostsdata = [
         ]
     },
     {
-        "link":"seo-trends",
+        "link": "seo-trends",
         "title": "SEO Trends 2025: What Marketers Need to Know",
         "image": blogimg4,
         "content": [
@@ -1300,7 +1301,7 @@ export const blogPostsdata = [
         ]
     },
     {
-        "link":"social-media",
+        "link": "social-media",
         "title": "Social Media Strategies That Drive Real Engagement",
         "image": blogimg5,
         "introduction": "Who doesn’t want social media content that stops people mid-scroll and inspires them to engage? Whether you’re a small business or a thriving brand, social media success lies in one thing—engagement. Likes, shares, comments, and clicks are more than just vanity metrics; they fuel visibility, build trust, and ultimately drive conversions. If you’re on the lookout for digital marketing services in Bhopal or trying to spice up your social media game, here’s a deep dive into strategies that work. Consider this your ultimate guide to turning passive scrollers into active participants.",
@@ -1436,6 +1437,429 @@ export const blogPostsdata = [
             }
         ],
 
+    },
+    {
+        "link": "top-5-seo-companies-in-bhopal",
+        "title": "Top 5 SEO Companies in Bhopal",
+        "image": blogimg6,
+        "content": [
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Top 5 SEO Companies in Bhopal"
+            },
+            {
+                "type": "paragraph",
+                "text": "In the digital generation users or business wants their online presence increase and they succeed organically through Search Engine Optimization (SEO) which is key and #1 method to increase your online presence and if you are looking for the best agency then your search ends here on this website."
+            },
+            {
+                "type": "paragraph",
+                "text": "Here is the List of Top 5 Agencies in Bhopal that provide Organic results:"
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "1. LeadsandBrands"
+            },
+            {
+                "type": "paragraph",
+                "text": "LeadsandBrands is the top SEO provider in Bhopal, award winning for its outstanding results in 2024. By using data-driven methods it provides guaranteed results. With expert SEO professionals, they help businesses increase visibility, rank better on search engines, drive organic traffic, and get instant results and leads."
+            },
+            {
+                "type": "heading",
+                "level": 5,
+                "text": "Why Choose LeadsandBrands?"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "On-Page & Off-Page SEO Optimization" },
+                    { "type": "list-item", "text": "Local SEO & Google My Business Optimization" },
+                    { "type": "list-item", "text": "High-Quality Content Development" },
+                    { "type": "list-item", "text": "Technical SEO & Website Audit" },
+                    { "type": "list-item", "text": "Transparent Reporting & Affordable Pricing" }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Whether you are a small business owner or a large firm, LeadsandBrands provides a tailored plan that fits your business requirements."
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "2. Digital Quester Bhopal"
+            },
+            {
+                "type": "paragraph",
+                "text": "A popular digital marketing company, Digital Quester Bhopal provides end-to-end SEO solutions, such as keyword research, link building, on-page and technical SEO."
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "3. SEO Valley"
+            },
+            {
+                "type": "paragraph",
+                "text": "Specializing in organic SEO and paid marketing, SEO Valley is a name to be reckoned with when it comes to organic search marketing."
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "4. Technogaze"
+            },
+            {
+                "type": "paragraph",
+                "text": "This company offers various digital marketing services like SEO, PPC, and social media marketing so that different types of businesses can reach them according to their digital marketing requirements."
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "5. SEOAIMPOINT"
+            },
+            {
+                "type": "paragraph",
+                "text": "Based firmly on ROI-driven SEO strategies, SEOAIMPOINT enables businesses to enhance search rankings and online presence."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Final Thoughts"
+            },
+            {
+                "type": "paragraph",
+                "text": "Selecting the SEO company according to requirement is a difficult task and choosing the right agency can make a huge difference to your business’s online success. Though there are many SEO agencies, LeadsandBrands is the #1 digital marketing expert in Bhopal because it has the experience, transparency, and client-centric approach."
+            },
+            {
+                "type": "paragraph",
+                "text": "Need to improve your rankings? Contact our SEO specialists today!"
+            },
+            {
+                "type": "paragraph",
+                "text": "Note: This is a comparison of third-party agencies. For our own premium SEO services, visit our dedicated SEO service page."
+            }
+        ]
+    },
+    {
+        "link": "top-5-social-media-marketing-in-bhopal",
+        "title": "Top 5 Social Media Marketing Companies in Bhopal",
+        "image": blogimg7,
+        "introduction": "In Bhopal's rapidly growing digital economy, 78% of consumers discover local businesses through social platforms. A strategic social media presence can increase brand awareness by 3x and improve customer retention by 45%. After evaluating 20+ agencies based on campaign results, client satisfaction, and platform expertise, we present the most authoritative ranking of Bhopal's top social media specialists.",
+        "content": [
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "1. LeadsandBrands - Bhopal's Most Results-Driven Social Media Agency"
+            },
+            {
+                "type": "paragraph",
+                "text": "🔗 https://leadsandbrands.com/social-media-services-bhopal"
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "What Sets Them Apart:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "Proprietary 'Social Conversion Blueprint' methodology" },
+                    { "type": "list-item", "text": "Dedicated content creation studio with in-house videographers" },
+                    { "type": "list-item", "text": "Advanced AI-powered audience targeting tools" },
+                    { "type": "list-item", "text": "Monthly performance guarantee clause in contracts" }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "\"Within 6 months, our real estate leads from Facebook increased from 15 to 87 per month, with 23% conversion rate.\" - Sanjay Gupta, Director, Green Valley Properties"
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Core Services:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "Platform-Specific Strategy Development" },
+                    { "type": "list-item", "text": "High-Engagement Content Creation" },
+                    { "type": "list-item", "text": "Conversion-Focused Ad Campaigns" },
+                    { "type": "list-item", "text": "Social Commerce Integration" },
+                    { "type": "list-item", "text": "Crisis Management & Reputation Monitoring" }
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "2. SocialPulse - Best for Viral Content & Brand Storytelling"
+            },
+            {
+                "type": "paragraph",
+                "text": "Specializing in visually stunning narratives, SocialPulse has mastered the art of scroll-stopping content. Their team includes former journalists and creative directors from Mumbai ad agencies."
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Notable Achievements:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "Created Bhopal's most shared Instagram Reel (2.4M views)" },
+                    { "type": "list-item", "text": "Developed award-winning campaign for MP Tourism" },
+                    { "type": "list-item", "text": "89% client retention rate since 2019" }
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Best For:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "Lifestyle brands" },
+                    { "type": "list-item", "text": "Food & hospitality businesses" },
+                    { "type": "list-item", "text": "Personal branding for professionals" }
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "3. DigiBuzz - Performance Marketing Specialists"
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Key Differentiators:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "Pay-per-lead pricing model" },
+                    { "type": "list-item", "text": "Proprietary ad optimization algorithm" },
+                    { "type": "list-item", "text": "Specialized in education and healthcare sectors" }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Case Study: Increased enrollment for a coaching institute by 140% through precision-targeted LinkedIn and YouTube campaigns."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "4. BrandVoyage - Affordable SME Solutions"
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Budget-Friendly Options:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "Starter packages from ₹15,000/month" },
+                    { "type": "list-item", "text": "DIY social media training programs" },
+                    { "type": "list-item", "text": "Monthly content calendars with 30+ posts" }
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Who Should Choose Them:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "Startups with limited budgets" },
+                    { "type": "list-item", "text": "Local retail businesses" },
+                    { "type": "list-item", "text": "Professionals building personal brands" }
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "5. MediaMint - Integrated Digital Marketing Partner"
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Full-Service Capabilities:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "Combines social media with SEO and email marketing" },
+                    { "type": "list-item", "text": "Dedicated account managers" },
+                    { "type": "list-item", "text": "Quarterly strategy refresh sessions" }
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Enterprise-Level Clients:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "3 national banks" },
+                    { "type": "list-item", "text": "MP government projects" },
+                    { "type": "list-item", "text": "Automobile dealership networks" }
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Selection Checklist for Bhopal Businesses"
+            },
+            {
+                "type": "paragraph",
+                "text": "Before choosing your social media partner, verify:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": " Platform-specific certifications" },
+                    { "type": "list-item", "text": " Case studies with measurable results" },
+                    { "type": "list-item", "text": " Content creation capabilities (in-house vs outsourced)" },
+                    { "type": "list-item", "text": " Crisis management protocols" },
+                    { "type": "list-item", "text": " Reporting frequency and transparency" }
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Why LeadsandBrands Remains Bhopal's #1 Choice"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "Only agency with a dedicated social media war room" },
+                    { "type": "list-item", "text": "24/7 community management" },
+                    { "type": "list-item", "text": "Proprietary competitor analysis tools" },
+                    { "type": "list-item", "text": "Free initial audit worth ₹25,000" }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Pro Tip: Ask for access to real-time dashboards during consultations - the best agencies will gladly showcase live campaign data."
+            },
+            {
+                "type": "paragraph",
+                "text": "Ready to transform your social presence? Get a free strategy session with Bhopal's top-rated team: https://leadsandbrands.com/social-media-services-bhopal"
+            }
+        ]
+    },
+    {
+        "link": "top-5-web-design-companies-in-bhopal",
+        "title": "Top 5 Web Design & Development Companies in Bhopal",
+        "image": blogimg8,
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "In Bhopal’s business market, every offline business needs a website for an online presence. That’s why they look for a reliable web design company in Bhopal and development service to build a professional site tailored to their needs. After evaluating 15+ agencies based on portfolio quality, client testimonials, technical expertise, and pricing, we’ve compiled this definitive list of Bhopal’s top web design specialists."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "1. LeadsandBrands - Bhopal's Most Award-Winning Web Design Agency"
+            },
+            {
+                "type": "paragraph",
+                "text": "LeadsandBrands has transformed over 200+ businesses in Central India with their conversion-focused web designs. Their recent work for Bhopal’s Heritage Hotels group resulted in a 170% increase in online bookings within 3 months."
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Core Strengths:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "Custom WordPress & Shopify development" },
+                    { "type": "list-item", "text": "Mobile-first responsive designs" },
+                    { "type": "list-item", "text": "UI/UX optimized for higher conversions" },
+                    { "type": "list-item", "text": "3x faster loading speeds than industry average" },
+                    { "type": "list-item", "text": "Free post-launch support for 60 days" }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "<em>“The team understood our vision perfectly. Our new website loads in 1.3 seconds and has reduced bounce rate by 40%.”</em> - Rajesh Verma, CEO, Madhya Pradesh Tours"
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "2. WebCraft India - Best for E-Commerce Solutions"
+            },
+            {
+                "type": "paragraph",
+                "text": "Specializing in Magento and WooCommerce, WebCraft has built some of MP’s most successful online stores."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "3. DesignNest - Creative Agency with Artistic Flair"
+            },
+            {
+                "type": "paragraph",
+                "text": "Ideal for brands wanting visually stunning portfolios and brochure websites."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "4. TechBees - Affordable Solutions for Startups"
+            },
+            {
+                "type": "paragraph",
+                "text": "Offering quality websites at competitive prices with flexible payment plans."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "5. Digital Heights - Full-Service Digital Partner"
+            },
+            {
+                "type": "paragraph",
+                "text": "Provides web design along with integrated digital marketing services."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Key Selection Criteria for Bhopal Businesses"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "Portfolio diversity across industries" },
+                    { "type": "list-item", "text": "WordPress, Shopify, and other CMS expertise" },
+                    { "type": "list-item", "text": "Mobile optimization capabilities" },
+                    { "type": "list-item", "text": "Post-development support" },
+                    { "type": "list-item", "text": "SEO-friendly coding practices" }
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Why LeadsandBrands Tops Our List"
+            },
+            {
+                "type": "list",
+                "items": [
+                    { "type": "list-item", "text": "Only agency in MP with Google-certified designers" },
+                    { "type": "list-item", "text": "98% client retention rate" },
+                    { "type": "list-item", "text": "Free website health audit with every quote" },
+                    { "type": "list-item", "text": "Transparent pricing with no added costs" }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "<em>Pro Tip: Always request live samples of their work, not mockups. Top agencies will happily display actual client sites.</em>"
+            },
+            {
+                "type": "paragraph",
+                "text": "Ready to revamp your online presence? <a href='https://leadsandbrands.com/web-developement-services-bhopal' target='_blank'>Receive a free consultation from Bhopal's highest-ranked web design team</a>."
+            }
+        ]
     }
 ];
 

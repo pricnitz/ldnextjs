@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export const MemberCard = ({ image, name, role }) => {
   return (
-       <div className="relative shadow-md h-60 w-full group overflow-hidden transition-transform duration-300 hover:scale-[1.02] ">
+       <div className="relative shadow-md h-60 w-full group overflow-hidden transition-transform duration-300 hover:scale-[1.02] " data-aos="fade-up">
       {/* Image */}
       <Image
         src={image}

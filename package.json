@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-     "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "export": "next export"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "html-react-parser": "^5.2.6",
     "marquee": "^0.2.1",
     "next": "15.4.6",

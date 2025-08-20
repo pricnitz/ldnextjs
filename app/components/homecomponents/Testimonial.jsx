@@ -72,7 +72,7 @@ function Testimonial({ data }) {
                     </div>
                   )}
 
-                  <h6 className="text-white text-lg font-semibold mt-4">{item.name}</h6>
+                  <h3 className="text-white text-lg font-semibold mt-4">{item.name}</h3>
                   {item.company && (
                     <p className="text-sm text-gray-300">{item.company}</p>
                   )}
