@@ -2,11 +2,12 @@
   "name": "leadsandbrand",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "build": "next build && next export",
-  "start": "npx serve@latest out"
-},
-
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
   "dependencies": {
     "aos": "^2.3.4",
     "html-react-parser": "^5.2.6",
