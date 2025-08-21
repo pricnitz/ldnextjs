@@ -546,3 +546,462 @@ export const webDevelopmentPageSEO = {
     images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
   },
 };
+
+
+
+// blogs starts from here 
+export const top5socialmediamarketinginbhopal = {
+  title:"Top 5 Social Media Marketing in Bhopal | Boost Engagement | Leads&Brands",
+  description:"Explore the best social media marketing agencies in Bhopal that can help you build your brand, connect with your audience, and drive real engagement and conversions.",
+  keywords: ["social media marketing Bhopal, SMM companies Bhopal, best social media agency Bhopal, digital marketing services Bhopal", "custom website development in bhopal", "responsive web design in bhopal", "best web development company in bhopal", "top web development agency in bhopal"],
+  alternates: {
+    canonical: "https://leadsandbrands.com/top-5-social-media-marketing-in-bhopal",
+  },
+  openGraph: {
+    title:
+      "Top 5 Social Media Marketing in Bhopal | Boost Engagement | Leads&Brands",
+    description:
+      "Explore the best social media marketing agencies in Bhopal that can help you build your brand, connect with your audience, and drive real engagement and conversions.",
+    url: "https://leadsandbrands.com/top-5-social-media-marketing-in-bhopal",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Top 5 Social Media Marketing in Bhopal",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Top 5 Social Media Marketing in Bhopal | Boost Engagement | Leads&Brands",
+    description:
+      "Explore the best social media marketing agencies in Bhopal that can help you build your brand, connect with your audience, and drive real engagement and conversions.",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+};
+
+export const top5seocompaniesinbhopal = {
+  title:"Top 5 SEO Companies in Bhopal | Rank Higher Organically | Leads&Brands",
+  description:"Discover the top 5 SEO companies in Bhopal to boost your business's online visibility and organic rankings. We review the best agencies for search engine optimization services in Bhopal.",
+  alternates: {
+    canonical: "https://leadsandbrands.com/top-5-seo-companies-in-bhopal",
+  },
+  openGraph: {
+    title:
+      "Top 5 SEO Companies in Bhopal | Rank Higher Organically | Leads&Brands",
+    description:
+      "Discover the top 5 SEO companies in Bhopal to boost your business's online visibility and organic rankings. We review the best agencies for search engine optimization services in Bhopal.",
+    url: "https://leadsandbrands.com/top-5-seo-companies-in-bhopal",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Top 5 SEO Companies in Bhopal",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Top 5 SEO Companies in Bhopal | Rank Higher Organically | Leads&Brands",
+    description:
+      "Discover the top 5 SEO companies in Bhopal to boost your business's online visibility and organic rankings. We review the best agencies for search engine optimization services in Bhopal.",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+};
+
+export const top5webdesigncompaniesinbhopal = {
+  title:"Top 5 Web Design Companies in Bhopal | Best Web Developers | Leads&Brands",
+  description:"Discover the top 5 web design companies in Bhopal that offer custom, responsive, and SEO-optimized website design services. Find the perfect partner for your online presence.",
+  alternates: {
+    canonical: "https://leadsandbrands.com/top-5-web-design-companies-in-bhopal",
+  },
+  openGraph: {
+    title:
+      "Top 5 Web Design Companies in Bhopal | Best Web Developers | Leads&Brands",
+    description:
+      "Discover the top 5 web design companies in Bhopal that offer custom, responsive, and SEO-optimized website design services. Find the perfect partner for your online presence.",
+    url: "https://leadsandbrands.com/top-5-web-design-companies-in-bhopal",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Top 5 SEO Companies in Bhopal",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Top 5 Web Design Companies in Bhopal | Best Web Developers | Leads&Brands",
+    description:
+      "Discover the top 5 web design companies in Bhopal that offer custom, responsive, and SEO-optimized website design services. Find the perfect partner for your online presence.",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+};
+
+export const OnPageSEO = {
+  title:"On-Page SEO vs Off-Page SEO: A Quick Guide",
+  description:"Learn the key differences between On-Page SEO and Off-Page SEO in this quick guide and boost your website’s search engine rankings effectively.",
+  alternates: {
+    canonical: "https://leadsandbrands.com/on-page-seo-vs-off-page-seo",
+  },
+  openGraph: {
+    title:
+      "On-Page SEO vs Off-Page SEO: A Quick Guide",
+    description:
+      "Learn the key differences between On-Page SEO and Off-Page SEO in this quick guide and boost your website’s search engine rankings effectively.",
+    url: "https://leadsandbrands.com/on-page-seo-vs-off-page-seo",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "On-Page SEO vs Off-Page SEO",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "On-Page SEO vs Off-Page SEO: A Quick Guide",
+    description:
+      "Learn the key differences between On-Page SEO and Off-Page SEO in this quick guide and boost your website’s search engine rankings effectively.",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+};
+
+export const performancemarketing = {
+  title:"Performance Marketing: A Complete Guide",
+  description:"Discover everything about Performance Marketing, including strategies, benefits, and how it can help grow your business.",
+  alternates: {
+    canonical: "https://leadsandbrands.com/performance-marketing",
+  },
+  openGraph: {
+    title:
+      "Performance Marketing: A Complete Guide",
+    description:
+      "Discover everything about Performance Marketing, including strategies, benefits, and how it can help grow your business.",
+    url: "https://leadsandbrands.com/performance-marketing",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Performance Marketing",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Performance Marketing: A Complete Guide",
+    description:
+      "Discover everything about Performance Marketing, including strategies, benefits, and how it can help grow your business.",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+};
+
+export const ai_digiatalmarketing = {
+  title:"Ai in Digital Marketing: A Complete Guide",
+  description:"Discover everything about Ai digital Marketing, including strategies, benefits, and how it can help grow your business.",
+  alternates: {
+    canonical: "https://leadsandbrands.com/ai-in-digital-marketing",
+  },
+  openGraph: {
+    title:
+      "Ai in Digital Marketing: A Complete Guide",
+    description:
+      "Discover everything about Ai digital Marketing, including strategies, benefits, and how it can help grow your business.",
+    url: "https://leadsandbrands.com/ai-in-digital-marketing",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Performance Marketing",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Ai in Digital Marketing: A Complete Guide",
+    description:
+      "Discover everything about Ai digital Marketing, including strategies, benefits, and how it can help grow your business.",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+};
+
+export const socialmedia = {
+  title:"Social Media Strategies That Drive Real Engagement",
+  description:"Social Media Strategies That Drive Real Engagement",
+  alternates: {
+    canonical: "https://leadsandbrands.com/social-media",
+  },
+  openGraph: {
+    title:
+      "Social Media Strategies That Drive Real Engagement",
+    description:
+      "Social Media Strategies That Drive Real Engagement.",
+    url: "https://leadsandbrands.com/social-media",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Performance Marketing",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Social Media Strategies That Drive Real Engagement",
+    description:
+      "Social Media Strategies That Drive Real Engagement",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+};
+
+export const seotrends = {
+  title:"SEO Trends 2025: What Marketers Need to Know",
+  description:"SEO Trends 2025: What Marketers Need to Know",
+  alternates: {
+    canonical: "https://leadsandbrands.com/seo-trends",
+  },
+  openGraph: {
+    title:
+      "SEO Trends 2025: What Marketers Need to Know",
+    description:
+      "SEO Trends 2025: What Marketers Need to Know",
+    url: "https://leadsandbrands.com/seo-trends",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Performance Marketing",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "SEO Trends 2025: What Marketers Need to Know",
+    description:
+      "SEO Trends 2025: What Marketers Need to Know",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+};
+
+export const digitalmarketingcompanyvidisha = {
+  title:"Digital Marketing Company in Vidisha | Top Digital marketing Agency & Services in Vidisha",
+  description:"Leads & Brands is the leading digital marketing agency in Vidisha offering expert SEO, PPC, social media & web design services. Grow your business online today!",
+  alternates: {
+    canonical: "https://leadsandbrands.com/digital-marketing-company-vidisha",
+  },
+  openGraph: {
+    title:
+      "Digital Marketing Company in Vidisha | Top Digital marketing Agency & Services in Vidisha",
+    description:
+      "Leads & Brands is the leading digital marketing agency in Vidisha offering expert SEO, PPC, social media & web design services. Grow your business online today!",
+    url: "https://leadsandbrands.com/digital-marketing-company-vidisha",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Digital Marketing Company in Vidisha | Top Digital marketing Agency & Services in Vidisha",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Digital Marketing Company in Vidisha | Top Digital marketing Agency & Services in Vidisha",
+    description:
+      "Leads & Brands is the leading digital marketing agency in Vidisha offering expert SEO, PPC, social media & web design services. Grow your business online today!",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+};
+
+export const digitalmarketingcompanyhoshangabad = {
+  title:"Digital Marketing Company in hoshangabad | Top Digital marketing Agency & Services in hoshangabad",
+  description:"Leads & Brands is the leading digital marketing agency in hoshangabad offering expert SEO, PPC, social media & web design services. Grow your business online today!",
+  alternates: {
+    canonical: "https://leadsandbrands.com/digital-marketing-company-hoshangabad",
+  },
+  openGraph: {
+    title:
+      "Digital Marketing Company in hoshangabad | Top Digital marketing Agency & Services in hoshangabad",
+    description:
+      "Leads & Brands is the leading digital marketing agency in hoshangabad offering expert SEO, PPC, social media & web design services. Grow your business online today!",
+    url: "https://leadsandbrands.com/digital-marketing-company-hoshangabad",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Digital Marketing Company in hoshangabad | Top Digital marketing Agency & Services in hoshangabad",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Digital Marketing Company in hoshangabad | Top Digital marketing Agency & Services in hoshangabad",
+    description:
+      "Leads & Brands is the leading digital marketing agency in hoshangabad offering expert SEO, PPC, social media & web design services. Grow your business online today!",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+};
+
+export const digitalmarketingcompanyraisen = {
+  title:"Digital Marketing Company in Raisen | Top Digital marketing Agency & Services in Raisen",
+  description:"Leads & Brands is the leading digital marketing agency in Raisen offering expert SEO, PPC, social media & web design services. Grow your business online today!",
+  alternates: {
+    canonical: "https://leadsandbrands.com/digital-marketing-company-raisen",
+  },
+  openGraph: {
+    title:
+      "Digital Marketing Company in Raisen | Top Digital marketing Agency & Services in Raisen",
+    description:
+      "Leads & Brands is the leading digital marketing agency in Raisen offering expert SEO, PPC, social media & web design services. Grow your business online today!",
+    url: "https://leadsandbrands.com/digital-marketing-company-raisen",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Digital Marketing Company in Raisen",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Digital Marketing Company in Raisen | Top Digital marketing Agency & Services in Raisen",
+    description:
+      "Leads & Brands is the leading digital marketing agency in Raisen offering expert SEO, PPC, social media & web design services. Grow your business online today!",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+};
+
+export const digitalmarketingcompanysehore = {
+  title:"Digital Marketing Company in Sehore | Top Digital marketing Agency & Services in Sehore",
+  description:"Leads & Brands is the leading digital marketing agency in Sehore offering expert SEO, PPC, social media & web design services. Grow your business online today!",
+  alternates: {
+    canonical: "https://leadsandbrands.com/digital-marketing-company-sehore",
+  },
+  openGraph: {
+    title:
+      "Digital Marketing Company in Sehore | Top Digital marketing Agency & Services in Sehore",
+    description:
+      "Leads & Brands is the leading digital marketing agency in Sehore offering expert SEO, PPC, social media & web design services. Grow your business online today!",
+    url: "https://leadsandbrands.com/digital-marketing-company-sehore",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Performance Marketing",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Digital Marketing Company in Sehore | Top Digital marketing Agency & Services in Sehore",
+    description:
+      "Leads & Brands is the leading digital marketing agency in Sehore offering expert SEO, PPC, social media & web design services. Grow your business online today!",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+};
+
+export const webdesigncompanyinbhopal = {
+  title:"Web Design Company & Services in Bhopal | Web design agency in Bhopal | Leads&Brands",
+  description:"Looking for the best web design company in Bhopal? Leads & Brands delivers custom, responsive, and SEO-optimized website design services in Bhopal. We specialize in high-performance websites for e-commerce, healthcare, real estate, and other industries. Our Bhopal web design agency combines stunning visuals with fast-loading performance to boost your online presence. Get affordable, professional web design solutions with guaranteed results. Request your free consultation today.",
+  alternates: {
+    canonical: "https://leadsandbrands.com/seo-trends",
+  },
+  openGraph: {
+    title:
+      "Web Design Company & Services in Bhopal | Web design agency in Bhopal | Leads&Brands",
+    description:
+      "Looking for the best web design company in Bhopal? Leads & Brands delivers custom, responsive, and SEO-optimized website design services in Bhopal. We specialize in high-performance websites for e-commerce, healthcare, real estate, and other industries. Our Bhopal web design agency combines stunning visuals with fast-loading performance to boost your online presence. Get affordable, professional web design solutions with guaranteed results. Request your free consultation today.",
+    url: "https://leadsandbrands.com/seo-trends",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Web Design Company & Services in Bhopal",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Web Design Company & Services in Bhopal | Web design agency in Bhopal | Leads&Brands",
+    description:
+      "Looking for the best web design company in Bhopal? Leads & Brands delivers custom, responsive, and SEO-optimized website design services in Bhopal. We specialize in high-performance websites for e-commerce, healthcare, real estate, and other industries. Our Bhopal web design agency combines stunning visuals with fast-loading performance to boost your online presence. Get affordable, professional web design solutions with guaranteed results. Request your free consultation today.",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+};

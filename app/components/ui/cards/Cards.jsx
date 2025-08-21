@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import Image from 'next/image';
+import AOSWrapper from '@/app/utils/AOSWrapper';
 
 
 export const MemberCard = ({ image, name, role }) => {
@@ -50,7 +51,7 @@ export const PortfolioCard = ({ images, title }) => {
   };
 
   return (
-    <>
+    < AOSWrapper>
       {/* Masonry Grid */}
       <div className="columns-2 sm:columns-3 md:columns-4 lg:columns-5 gap-2">
         {images.map((img, index) => (
@@ -61,6 +62,7 @@ export const PortfolioCard = ({ images, title }) => {
               setIsOpen(true);
             }}
             className="relative mb-2 shadow-md group cursor-pointer overflow-hidden rounded-lg"
+              data-aos="fade-up"
           >
             <img
               src={img.src}
@@ -109,6 +111,6 @@ export const PortfolioCard = ({ images, title }) => {
           </button>
         </div>
       )}
-    </>
+    </AOSWrapper>
   );
 };

@@ -5,8 +5,12 @@ import Link from 'next/link';
 import Navbar from '@/app/components/navbar/Navbar'; // Assuming component paths
 import Header from '@/app/components/header/Header';
 import { blogPostsdata } from '../data';
+import { OnPageSEO } from '../seo';
+
 
 const { title , image, content} = blogPostsdata[0];
+
+export const metadata = OnPageSEO;
 
 function renderContent(content) {
   return content.map((block, idx) => {

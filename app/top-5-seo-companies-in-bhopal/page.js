@@ -5,8 +5,11 @@ import Link from 'next/link';
 import Navbar from '@/app/components/navbar/Navbar'; // Assuming component paths
 import Header from '@/app/components/header/Header';
 import { blogPostsdata } from '../data';
+import { top5seocompaniesinbhopal } from '../seo';
 
 const { title , image, content} = blogPostsdata[5];
+
+export const metadata = top5seocompaniesinbhopal;
 
 function renderContent(content) {
   return content.map((block, idx) => {

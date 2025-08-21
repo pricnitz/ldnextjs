@@ -3,6 +3,7 @@ import Navbar from "../components/navbar/Navbar";
 import { PortfolioCard } from "../components/ui/cards/Cards";
 import { portfolioheaderTitles, portfolioData } from "../data.jsx"; 
 import { portfolioPageSEO } from "../seo";
+import AOSWrapper from "../utils/AOSWrapper";
 
 
 export const metadata = portfolioPageSEO;
@@ -10,6 +11,7 @@ export const metadata = portfolioPageSEO;
 export default function Index() {
   
   return (
+    
     <main className="w-full mx-auto bg-primary pt-20">
       {/* Header + Navbar */}
       <div className="fixed inset-x-0 top-0 z-50">

@@ -1,11 +1,11 @@
 import React from "react";
 
-function SectionBlock({ title, description , features }) {
+function SectionBlock({ title, description , features , highlight }) {
   return (
     <div className="my-12">
         
       {title && (
-        <h2 className="text-white text-2xl font-raleway mb-4">{title}</h2>
+        <h2 className="text-white text-2xl font-raleway mb-4">{title} <span className="text-red-600" >{highlight}</span></h2>
       )}
       
 

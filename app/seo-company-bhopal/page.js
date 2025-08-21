@@ -2,8 +2,10 @@ import Header from "../components/header/Header";
 import Navbar from "../components/navbar/Navbar";
 import Serviceshero from "../components/servicescomponents/Serviceshero";
 import SectionBlock from "../components/servicescomponents/SectionBlock";
+import Keywords from "../components/servicescomponents/Keywords";
 import FeatureList from "../components/servicescomponents/FeatureList";
 import ProcessSteps from "../components/servicescomponents/ProcessSteps";
+import Cardssection from "../components/servicescomponents/Cardssection";
 
 import { seoMarketingTitles, seoMarketingData } from "../data.jsx";
 import { seoPageSEO } from "../seo";
@@ -11,7 +13,7 @@ import { seoPageSEO } from "../seo";
 export const metadata = seoPageSEO;
 
 export default function index() {
-  const data = seoMarketingData; 
+  const data = seoMarketingData;
   return (
     <main className="w-full mx-auto bg-primary pt-20">
       {/* Header + Navbar */}
@@ -28,15 +30,56 @@ export default function index() {
       </section>
 
       {/* Dynamic Sections */}
-      <section className="max-w-6xl mx-auto px-4 pb-20">
-        {data.sectionOne && (
-          <SectionBlock
-            title={data.sectionOne.title}
-            description={data.sectionOne.description}
+      <section className="max-w-6xl mx-auto px-4 pb-10">
+
+        {data.primarycardssection && (
+          <Cardssection
+            title={data.primarycardssection.title}
+            highlight={data.primarycardssection.highlight}
+            cards={data.primarycardssection.cards}
+            conclusion={data.primarycardssection.conclusion}
           />
         )}
+      </section>
 
-        {data.sectionTwo && (
+        {/* keywords */}
+      <section className="max-w-6xl mx-auto px-4 pb-10">
+        {data.keywordssection && (
+          <Keywords
+            title={data.keywordssection.title}
+            description={data.keywordssection.description}
+            highlight={data.keywordssection.highlight}
+            keywordlist={data.keywordssection.keywords}
+            conclusion={data.keywordssection.conclusion}
+          />
+        )}
+      </section>
+
+      {/* advantages section */}
+      <section className="max-w-6xl mx-auto px-4 pb-10">
+        {data.advantagessection && (
+          <Cardssection
+            title={data.advantagessection.title}
+            highlight={data.advantagessection.highlight}
+            cards={data.advantagessection.benefitcards}
+            conclusion={data.advantagessection.conclusion}
+          />
+        )}
+      </section>
+
+      <section className="max-w-6xl mx-auto px-4 pb-10">
+          {data.ctasection && (
+          <SectionBlock
+            title={data.ctasection.title}
+            highlight={data.ctasection.highlight}
+            description={data.ctasection.description}
+            features={data.ctasection.features}
+          />
+        )}
+      </section>
+
+  <section className="max-w-6xl mx-auto px-4 pb-10">
+         {data.sectionTwo && (
           <FeatureList
             title={data.sectionTwo.title}
             description={data.sectionTwo.description}
@@ -44,15 +87,8 @@ export default function index() {
             conclusion={data.sectionTwo.conclusion}
           />
         )}
-
-        {data.sectionThree && (
-          <ProcessSteps
-            title={data.sectionThree.title}
-            steps={data.sectionThree.steps}
-            conclusion={data.sectionThree.conclusion}
-          />
-        )}
       </section>
+
     </main>
   );
 }

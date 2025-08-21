@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { IoMdArrowDropright } from "react-icons/io";
 
 
 export { default as leadsandbrandlogo } from '../public/assets/logos/l.png';
@@ -2021,6 +2022,12 @@ export const digitalMarketingData = {
 export const seoMarketingData = {
     title: "SEO",
     highlight: "Company in Bhopal",
+
+    image: {
+        src: servicepageimage2,
+        alt: "SEO services in Bhopal",
+    },
+
     description: [
         `At leadsandBrands, you are not just getting digital presence for your product or website 
     but also complete search engine optimization solutions from scratch. As we are one of the 
@@ -2032,31 +2039,155 @@ export const seoMarketingData = {
     Weather you have a business in real estate, medical, education, travel we are always ready to work with you.`
     ],
 
-    cta: {
-        label: "Get Free SEO Audit",
-        href: "#contact",
-        style: {
-            backgroundColor: "#ff0000",
-            color: "#fff",
-            padding: "18px 50px",
-            marginTop: "30px",
-            borderRadius: "4px",
-            fontWeight: "bold",
-            display: "inline-block",
-            textDecoration: "none",
-            fontSize: "1.1rem",
-            transition: "all 0.3s ease"
-        }
+    primarycardssection: {
+        title: " Our Complete  ",
+        highlight: "SEO Services",
+        cards: [
+            {
+                title: "Technical SEO",
+                description:
+                    "We analyze your business website and audit it to fix all technical errors, making it SEO-friendly and mobile responsive. Our team ensures your website meets all search engine guidelines for optimal performance.",
+
+            },
+            {
+                title: "On-Page SEO",
+                description:
+                    "We structure your website with targeting keywords, implement internal linking strategies, use schema markup, and optimize meta tags and header tags to improve your search visibility.",
+
+            },
+            {
+                title: "Off-Page SEO",
+                description:
+                    "We build your website authority and trust by creating quality backlinks through strategic outreach campaigns to get you sustainable, penalty-free results.",
+
+            },
+            {
+                title: "Local SEO",
+                description:
+                    "We boost your local presence by optimizing your Google My Business profile and creating local citations specifically for Bhopal city to help you dominate local search results.",
+
+            },
+            {
+                title: "Keyword Research",
+                description:
+                    "We conduct thorough keyword research according to your business criteria and target specific locations to find the most valuable keywords for your Bhopal-based business.",
+
+            },
+            {
+                title: "Reputation Management",
+                description:
+                    "We manage and improve your online reputation by increasing positive presence across the internet through strategic brand promotion and review management.",
+
+            },
+        ],
     },
 
-    image: {
-        src: servicepageimage2,
-        alt: "SEO services in Bhopal",
-        style: {
-            maxWidth: "100%",
-            height: "auto"
-        }
-    }
+    keywordssection: {
+        title: "Professional",
+        highlight: "SEO Tools We Use",
+        description: "We leverage industry-leading tools for keyword research, technical audits, and comprehensive SEO analysis:",
+        keywords: [
+            "Ahrefs",
+            "SEMrush",
+            "Google Keyword Planner",
+            "Google Analytics",
+            "Google Search Console",
+            "Ubersuggest",
+            "Screaming Frog",
+        ],
+
+    },
+
+    advantagessection: {
+        title: "Advantages of ",
+        highlight: "Leads and Brands",
+        description: "We leverage industry-leading tools for keyword research, technical audits, and comprehensive SEO analysis:",
+        benefitcards: [
+            {
+                title: "Affordable SEO Services",
+                description:
+                    "High-quality SEO services that fit your budget without compromising results.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Improved Organic Traffic",
+                description:
+                    "Sustainable growth in qualified visitors from search engines.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Enhanced Brand Awareness",
+                description:
+                    "Increase your visibility and recognition in Bhopal's market.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Higher Conversion Rates",
+                description:
+                    "Turn more visitors into paying customers with optimized experiences.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "24/7 Customer Support",
+                description:
+                    "Always available to address your questions and concerns.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Regular Maintenance",
+                description:
+                    "Ongoing optimization to maintain and improve your rankings.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Quick Solution Fixes",
+                description:
+                    "Rapid response to technical issues that may affect your SEO.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Reputation Management",
+                description:
+                    "Build and maintain a positive online presence for your brand.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Domain Authority Building",
+                description:
+                    "Strengthen your website's credibility and trust signals.",
+                icon: <IoMdArrowDropright />,
+            },
+        ],
+
+    },
+
+    ctasection: {
+        title: "Why Choose ",
+        highlight: "LeadsandBrands Bhopal for SEO?",
+        description: [`LeadsandBrands is a trustworthy and reliable partner for <a href="/seo-company-bhopal">SEO services in Bhopal</a> . Our experienced staff uses cutting-edge SEO strategies to raise your website ranking and improve its online presence on search engines like Google.`, `As a Top SEO agency in Bhopal we provide customized SEO services for content marketing, on-page optimization, or local SEO depending on your specific business needs. Unlike shortcut-dependent agencies, we utilize white-hat SEO strategies to provide sustainable growth without risking penalties.`, `Through transparent reporting, you'll always stay informed about your campaign's progress with precise analytics. We take pride in delivering cost-effective yet high-quality SEO services that meet your budget while driving real results—increased traffic, leads, and conversions.`, ` <span style='color:red'>LeadsandBrands is the right choice</span> . Let us help your business grow online—contact us today!`]
+    },
+
+    sectionTwo: {
+        title: "Areas We Serve in Bhopal",
+        description: ["As the leading SEO company in Bhopal, Leads & Brands provides top-tier SEO services in Bhopal to businesses across the city. Our SEO agency in Bhopal specializes in localized strategies for key commercial hubs including MP Nagar, Arera Colony, Shahpura, New Market, Habibganj, Bairagarh, Kolar, and Ayodhya Nagar.", "We serve businesses throughout Bhopal, from startups in Hoshangabad Road to established brands near DB Mall. Our expertise extends to healthcare providers in Peer Gate or Gulmohar, educational institutes in Chuna Bhatti, retail shops in 10 No. Market, and real estate developers in Bawadia Kalan."],
+        features: [
+            "MP Nagar",
+            "Arera Colony",
+            "Shahpura",
+            " New Market"
+        ],
+        conclusion: "Our strength is in providing high-end creatives and compelling content development across all digital platforms."
+    },
+
+
+
+
+
+
+
+
+
+
 };
 
 export const ppcData = {

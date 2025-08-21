@@ -5,8 +5,11 @@ import Link from 'next/link';
 import Navbar from '@/app/components/navbar/Navbar'; // Assuming component paths
 import Header from '@/app/components/header/Header';
 import { blogPostsdata } from '../data';
+import { performancemarketing } from '../seo';
 
 const { title , image, content} = blogPostsdata[1];
+
+export const metadata = performancemarketing;
 
 function renderContent(content) {
   return content.map((block, idx) => {

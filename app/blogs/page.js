@@ -5,6 +5,7 @@ import { BlogheaderTitles, Blogherodata, blogPostsdata } from './../data';
 import BlogcardsContainer from '../components/blogcomponents/BlogcardsContainer';
 import { blogPageSEO } from '../seo';
 
+
 export const metadata = blogPageSEO;
 
 export default function Blog() {
