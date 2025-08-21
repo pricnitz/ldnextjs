@@ -8,7 +8,18 @@ import Socillinks from "../sociallinks/Socillinks";
 function Footer() {
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        console.log("Form submitted");
+        const formData = new FormData(e.target);
+        const name = formData.get("name");
+        const businessName = formData.get("businessName");
+        const website = formData.get("website");
+        const email = formData.get("email");
+        const contact = formData.get("contact");
+        const subject = formData.get("subject");
+        const message = formData.get("message");
+        const fullMessage = `New Enquiry: Business Name: ${businessName} Name: ${name} Email: ${email} Website: ${website} Subject: ${subject} Contact: ${contact} Message: ${message}`;
+        const phoneNumber = "917974777707"; // WhatsApp number
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(fullMessage)}`;
+        window.open(whatsappURL, "_blank");
     };
 
     return (

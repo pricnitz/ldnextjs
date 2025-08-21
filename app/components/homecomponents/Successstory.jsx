@@ -22,7 +22,7 @@ function Successstory({ data }) {
                                 activeTab === story.id && (
                                     <div key={story.id} className="grid md:grid-cols-2 gap-8 items-start justify-center align-middle">
                                         {/* Left Column */}
-                                        <div className='text-para'>
+                                        <div className='text-para'   data-aos="fade-right">
                                             <h3 className="text-sm md:text-xl font-semibold text-white">{story.title}</h3>
                                             <p className="text-sm text-gray-300">{story.subtitle}</p>
                                             <div className="space-y-4 mt-4">
@@ -46,7 +46,7 @@ function Successstory({ data }) {
                                         </div>
 
                                         {/* Right Column - Metrics */}
-                                        <div className="space-y-4">
+                                        <div className="space-y-4 "   data-aos="fade-left">
                                             {story.metrics.map((metric, idx) => (
                                                 <div
                                                     key={idx}
@@ -80,7 +80,7 @@ function Successstory({ data }) {
                         {data.map((story) => (
                             <button
                                 key={story.id}
-                                data-aos="fade-up"
+                              
                                 onClick={() => setActiveTab(story.id)}
                                 className={` rounded-lg hover:grayscale-0 transition delay-300 cursor-pointer ${activeTab === story.id ? 'grayscale-0' : 'grayscale '
                                     }`}

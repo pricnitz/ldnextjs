@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Pagination } from "swiper/modules";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import AOSWrapper from "@/app/utils/AOSWrapper";
 import Image from "next/image";
 
 function History({ data }) {
@@ -13,7 +14,8 @@ function History({ data }) {
   const nextRef = useRef(null);
 
   return (
-    <div className="w-full mx-auto bg-primary relative">
+    <AOSWrapper>
+          <div className="w-full mx-auto bg-primary relative">
       <Swiper
         modules={[Navigation, Pagination]}
         pagination={{ clickable: true }}
@@ -27,7 +29,7 @@ function History({ data }) {
       >
         {/* First Slide */}
         <SwiperSlide>
-          <div className="relative md:h-[650px] h-[720px] bg-black">
+          <div className="relative md:h-[650px] h-[720px] bg-black" >
             {/* Background Image */}
             <Image
               src={data[0].img} // e.g. "/assets/banners/1.jpeg"
@@ -41,7 +43,7 @@ function History({ data }) {
 
             {/* Content */}
             <div className="relative z-10 mx-auto w-full max-w-6xl h-full flex md:grid md:grid-cols-2 flex-col px-4 py-10 md:py-20 items-center justify-between">
-              <div>
+              <div data-aos="fade-right">
                 <h3 className="text-white text-2xl md:text-3xl lg:text-4xl font-raleway py-5">
                   {data[0].title}
                 </h3>
@@ -51,7 +53,7 @@ function History({ data }) {
                   </p>
                 ))}
               </div>
-              <div className="flex justify-self-end">
+              <div className="flex justify-self-end" data-aos="fade-left">
                 <button
                   ref={nextRef}
                   className="text-red-600 p-3 flex items-center justify-center gap-2 md:text-2xl text-xl font-raleway font-bold hover:group cursor-pointer"
@@ -81,7 +83,7 @@ function History({ data }) {
 
             {/* Content */}
             <div className="relative z-10 mx-auto w-full max-w-6xl h-full flex md:grid md:grid-cols-2 flex-col-reverse px-4 py-10 md:py-20 items-center justify-between">
-              <div>
+              <div data-aos="fade-right">
                 <button
                   ref={prevRef}
                   className="text-red-600 p-3 flex items-center justify-center gap-2 md:text-2xl text-xl font-raleway font-bold leading-none hover:group cursor-pointer"
@@ -92,7 +94,7 @@ function History({ data }) {
                   </span>
                 </button>
               </div>
-              <div>
+              <div data-aos="fade-left">
                 <h3 className="text-white text-2xl md:text-3xl lg:text-4xl font-raleway py-5">
                   {data[1].title}
                 </h3>
@@ -107,6 +109,8 @@ function History({ data }) {
         </SwiperSlide>
       </Swiper>
     </div>
+    </AOSWrapper>
+
   );
 }
 

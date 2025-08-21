@@ -9,6 +9,32 @@ import { careerPageSEO } from "../seo";
 // SEO Metadata for the Career page
 export const metadata = careerPageSEO;
 
+const handleCareerFormSubmit = (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const contact = formData.get("contact");
+    const profile = formData.get("profile");
+    const message = formData.get("message");
+
+    const fullMessage = `Career Enquiry:
+Name: ${name}
+Email: ${email}
+Contact: ${contact}
+Profile: ${profile}
+Message: ${message}
+    
+(Attached files are not supported in WhatsApp)`;
+
+    const phoneNumber = "917974777707"; // WhatsApp number
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(fullMessage)}`;
+
+    window.open(whatsappURL, "_blank");
+};
+
+
 const careerFields = [
   { name: "name", label: "Name", placeholder: "Name" },
   { name: "email", label: "Email Address", placeholder: "Email Address" },

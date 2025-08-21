@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 export default function AOSWrapper({ children }) {
   useEffect(() => {
-    AOS.init({ duration: 500,  });
+    AOS.init({ duration: 500, once: true, });
   }, []);
 
   return <>{children}</>;

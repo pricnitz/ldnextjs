@@ -30,18 +30,29 @@ function Careerhero({ jobOpenings }) {
     ];
 
 
-    const handleSubmit = async (e) => {
+    const handleCareerFormSubmit = (e) => {
         e.preventDefault();
+
         const formData = new FormData(e.target);
+        const name = formData.get("name");
+        const email = formData.get("email");
+        const contact = formData.get("contact");
+        const profile = formData.get("profile");
+        const message = formData.get("message");
 
-        // Send to API route
-        const res = await fetch("/api/career", {
-            method: "POST",
-            body: formData,
-        });
+        const fullMessage = `Career Enquiry:
+        Name: ${name}
+        Email: ${email}
+        Contact: ${contact}
+        Profile: ${profile}
+        Message: ${message}
+            
+        (Attached files are not supported in WhatsApp)`;
 
-        const data = await res.json();
-        alert(data.message);
+        const phoneNumber = "917974777707"; // WhatsApp number
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(fullMessage)}`;
+
+        window.open(whatsappURL, "_blank");
     };
 
     return (
@@ -67,7 +78,7 @@ function Careerhero({ jobOpenings }) {
                             Tell us about yourself
                         </h2>
                         <Form
-                            onSubmit={handleSubmit}
+                            onSubmit={handleCareerFormSubmit}
                             fields={careerFields}
                             submitText="Apply Now"
                         />
