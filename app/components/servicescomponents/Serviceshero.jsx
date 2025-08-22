@@ -6,7 +6,7 @@ function Serviceshero({ data }) {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
       {/* Left Section */}
       <div className='mb-4 md:mb-0 col-span-2'>
-        <h1 className="text-xl md:text-2xl lg:text-3xl font-raleway text-white mb-3 font-extrabold">
+        <h1 className="text-xl md:text-2xl lg:text-3xl font-raleway text-white mb-3 font-bold">
           <span className="text-red-600">{data.title}</span> {data.highlight}
         </h1>
         {data.description.map((para, index) => (

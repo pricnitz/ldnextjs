@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-     images: {
-    unoptimized: true,
+  output: 'export',
+  trailingSlash: true, // ✅ must be top-level
+  images: {
+    unoptimized: true, // ✅ stays inside images
   },
 };
 

@@ -4,6 +4,7 @@ import Serviceshero from "../components/servicescomponents/Serviceshero";
 import SectionBlock from "../components/servicescomponents/SectionBlock";
 import FeatureList from "../components/servicescomponents/FeatureList";
 import ProcessSteps from "../components/servicescomponents/ProcessSteps";
+import FAQSection from "../components/servicescomponents/Faqsection";
 
 import { webDevelopmenheaderTitles, webDevelopmentData } from "../data.jsx";
 import { webDevelopmentPageSEO } from "../seo";
@@ -55,6 +56,16 @@ export default function index() {
           />
         )}
       </section>
+        <section className="max-w-6xl mx-auto px-4 pb-10">
+            {data.faqsection && (
+              <FAQSection
+                title={data.faqsection.title}
+                highlight={data.faqsection.highlight}
+                faqs={data.faqsection.faqs}
+                conclusion={data.faqsection.conclusion}
+              />
+            )}
+          </section>
     </main>
   );
 }

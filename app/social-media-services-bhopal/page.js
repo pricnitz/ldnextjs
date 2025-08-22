@@ -4,6 +4,9 @@ import Serviceshero from "../components/servicescomponents/Serviceshero";
 import SectionBlock from "../components/servicescomponents/SectionBlock";
 import FeatureList from "../components/servicescomponents/FeatureList";
 import ProcessSteps from "../components/servicescomponents/ProcessSteps";
+import Cardsectiontwo from "../components/servicescomponents/Cardsectiontwo";
+import Containersection from "../components/servicescomponents/Containersection";
+import FAQSection from "../components/servicescomponents/Faqsection";
 
 import { smmheaderTitles, smmData } from "../data.jsx";
 import { smmPageSEO } from "../seo";
@@ -11,7 +14,7 @@ import { smmPageSEO } from "../seo";
 export const metadata = smmPageSEO;
 
 export default function index() {
-  const data = smmData; 
+  const data = smmData;
   return (
     <main className="w-full mx-auto bg-primary pt-20">
       {/* Header + Navbar */}
@@ -54,7 +57,44 @@ export default function index() {
             conclusion={data.sectionThree.conclusion}
           />
         )}
+
+
+
+
       </section>
+
+      <section className="max-w-6xl mx-auto px-4 pb-20">
+        {data.sectionfour && (
+          <Cardsectiontwo
+            title={data.sectionfour.title}
+            highlight={data.sectionfour.highlight}
+            cards={data.sectionfour.features}
+            conclusion={data.sectionfour.conclusion}
+          />
+        )}
+      </section>
+
+      <section className="max-w-6xl mx-auto px-4 pb-20">
+        {data.sectionfive && (
+          <Containersection
+            title={data.sectionfive.title}
+            highlight={data.sectionfive.highlight}
+            description={data.sectionfive.description}
+            conclusion={data.sectionfive.conclusion}
+          />
+        )}
+      </section>
+      <section className="max-w-6xl mx-auto px-4 pb-10">
+        {data.faqsection && (
+          <FAQSection
+            title={data.faqsection.title}
+            highlight={data.faqsection.highlight}
+            faqs={data.faqsection.faqs}
+            conclusion={data.faqsection.conclusion}
+          />
+        )}
+      </section>
+
     </main>
   );
 }

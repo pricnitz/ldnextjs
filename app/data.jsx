@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { IoMdArrowDropright } from "react-icons/io";
-
+import { IoMdArrowDropright, IoLogoYoutube } from "react-icons/io";
+import { FaFacebook, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 
 export { default as leadsandbrandlogo } from '../public/assets/logos/l.png';
 // portfolio  images
@@ -82,7 +82,7 @@ import servicepageimage5 from "../public/assets/services/cw.png"
 import servicepageimage6 from "../public/assets/services/wd.png"
 import servicepageimage7 from "../public/assets/services/app.png"
 import servicepageimage8 from "../public/assets/services/em.svg"
-import servicepageimage9 from "../public/assets/services/em.svg"
+import servicepageimage9 from "../public/assets/services/ai.png"
 // import servicepageimage9 from "../public/assets/services/ai.svg"
 
 //=====================================================================================> header titles 
@@ -2168,27 +2168,72 @@ export const seoMarketingData = {
     },
 
     sectionTwo: {
-        title: "Areas We Serve in Bhopal",
+        title: "Areas We ",
+        highlight: "Serve in Bhopal",
         description: ["As the leading SEO company in Bhopal, Leads & Brands provides top-tier SEO services in Bhopal to businesses across the city. Our SEO agency in Bhopal specializes in localized strategies for key commercial hubs including MP Nagar, Arera Colony, Shahpura, New Market, Habibganj, Bairagarh, Kolar, and Ayodhya Nagar.", "We serve businesses throughout Bhopal, from startups in Hoshangabad Road to established brands near DB Mall. Our expertise extends to healthcare providers in Peer Gate or Gulmohar, educational institutes in Chuna Bhatti, retail shops in 10 No. Market, and real estate developers in Bawadia Kalan."],
         features: [
             "MP Nagar",
             "Arera Colony",
             "Shahpura",
-            " New Market"
+            "New Market",
+            "Bairagarh",
+            "Kolar",
+            "Ayodhya Nagar",
+            "Hoshangabad Road",
+            "Gulmohar",
+            "Bawadia Kalan",
         ],
         conclusion: "Our strength is in providing high-end creatives and compelling content development across all digital platforms."
     },
 
+    faqsection: {
+        title: "Frequently ",
+        highlight: "Asked Questions",
 
-
-
-
-
-
-
-
-
-};
+        faqs: [
+            {
+                question: "What is SEO?",
+                answer:
+                    "SEO (Search Engine Optimization) is the process of improving your website's visibility in search engine results to attract more organic traffic and potential customers to your business.",
+            },
+            {
+                question: "Why is SEO necessary?",
+                answer:
+                    "SEO is essential because when you have a business, you need customers. SEO is the most effective organic way to attract potential customers who are actively searching for your products or services online.",
+            },
+            {
+                question: "How to choose an SEO company in Bhopal?",
+                answer:
+                    "Look for case studies, check their online presence, review past results for other businesses, and read client testimonials. A reputable company like LeadsandBrands will be transparent about their methods and results.",
+            },
+            {
+                question: "What SEO services do you provide?",
+                answer:
+                    "We offer complete SEO services including Technical SEO, On-Page SEO, Off-Page SEO, Local SEO, Keyword Research, and Online Reputation Management tailored to your specific business needs.",
+            },
+            {
+                question: "How long does SEO take to show results?",
+                answer:
+                    "For new business websites, it typically takes 3-6 months to see significant results. Some businesses with low competition may see improvements in 6-8 weeks. SEO is a long-term strategy that builds over time.",
+            },
+            {
+                question: "Why is LeadsandBrands the best in Bhopal?",
+                answer:
+                    "We're the top SEO company in Bhopal because we use data-driven methods and white-hat techniques. We work from campaign start to finish until you achieve your desired results, with no false promises.",
+            },
+            {
+                question: "What industries do you work with?",
+                answer:
+                    "As the best SEO agency in Bhopal, we work with all industries including healthcare, technology, education, manufacturing, real estate, and entertainment to improve their online presence.",
+            },
+            {
+                question: "How do I start using your services?",
+                answer:
+                    "Simply contact us through our website to request a free SEO audit for your website. We'll analyze your current situation and propose a customized strategy to begin your campaign.",
+            },
+        ]
+    }
+}
 
 export const ppcData = {
     title: "Pay Per",
@@ -2245,6 +2290,90 @@ export const smmData = {
             "Organic Growth of Followers and Likes"
         ],
         conclusion: `As the top social media company in Bhopal, we develop tailored strategies to help you gain maximum online presence and business growth.`
+    },
+    sectionfour: {
+        title: "Social Media",
+        highlight: " Approach",
+        features: [
+            {
+                icon: <FaFacebook />,
+                title: "Facebook Marketing",
+                description:
+                    "For your business in Bhopal, we create Facebook campaigns that are crafted to generate more engagement and conversions. Conversion-boosting placements for ads, engaging content creation, and precise audience targeting are some of our strategies.",
+            },
+            {
+                icon: <FaInstagramSquare />,
+                title: "Instagram Growth",
+                description:
+                    "Our Instagram experts help Bhopal businesses build attention-grabbing accounts that attract real followers. Our expertise includes campaign stories, influencer collaborations, and sales-increasing shoppable posts.",
+            },
+            {
+                icon: <FaLinkedin />,
+                title: "LinkedIn Networking",
+                description:
+                    "In order to rank highly in search results and keep viewers interested for longer, our video marketing experts assist Bhopal businesses in producing captivating YouTube videos with unique titles, descriptions, and tags.",
+            },
+            {
+                icon: <IoLogoYoutube />,
+                title: "YouTube Visibility",
+                description:
+                    "Our video marketing specialists help Bhopal businesses create engaging YouTube content that ranks in search results and keeps viewers watching longer with optimized titles, descriptions, and tags.",
+            },
+        ],
+    },
+
+    sectionfive: {
+        title: "Social Media",
+        highlight: " Approach",
+        description: [
+            `As the best <span style="color:red;">social media marketing company in Bhopal</span>, we service businesses in all of the city's major business and residential districts. Our specialized tactics, through focused social campaigns, help clients to take over their communities.`,
+            'Our geo-social media solutions reveal your business to neighborhood clients who are seeking your services in real time, whether it is your restaurant in MP Nagar, clinic in Arera Colony, or a retail outlet in New Market'
+        ]
+    },
+
+
+    faqsection: {
+        title: "Frequently ",
+        highlight: "Asked Questions",
+
+        faqs: [
+            {
+                question: "What social media services do you offer in Bhopal?",
+                answer:
+                    "Our social media services in Bhopal range from planning to execution. We are experts in social media marketing services, content creation, paid social advertising like meta ads, influencer marketing, and reputation management. From developing interesting posts, targeted advertisements, or performance monitoring, we ensure your brand is heard.",
+            },
+            {
+                question: "Why should I hire your social media agency in Bhopal?",
+                answer:
+                    "As a top social media marketing agency in Bhopal, we provide data driven results and our expertise lies in creating tailored strategies that are as compatible with your business ideas and goals. We serve brands growing their online presence effectively through a data-driven strategy, transparent pricing, and seasoned experts.",
+            },
+            {
+                question: "What platforms do you deal with as a Bhopal social media agency?",
+                answer:
+                    "We specialize in Facebook, Instagram, LinkedIn, x, YouTube, and Pinterest. Our specialists create all platform strategies to increase engagement and conversions, so that your business is reach and noticed by the right users.",
+            },
+            {
+                question: "How long does it take to see results from social media marketing?",
+                answer:
+                    "Results depends on your budget and industry and the methods we use. Some businesses see early engagement in a matter of weeks, and ongoing development (like lead generation and sales) could happen after a few months. Our concern here at an elite social media agency in Bhopal is consistent, measurable progress.",
+            },
+            {
+                question: "Do you offer local Bhopal social media marketing for Bhopal businesses?",
+                answer:
+                    "Yes! We help local businesses in Bhopal connect with their locals through geo-targeted advertisements, local messaging, and influencer marketing. From a restaurant, clinic, or shop, we will get you noticed among your local consumers.",
+            },
+            {
+                question: "Do you work on both organic growth and paid advertising?",
+                answer:
+                    "Yes, we work on both by combine organic content (engagement, stories, posts) with paid ads for a balanced approach. This combined both approach delivers sustainable growth and leverages ads to deliver instant visibility. As one of the leading social media agencies in Bhopal, we calibrate both for highest ROI.",
+            },
+            {
+                question: "How do I start using your social media services?",
+                answer:
+                    "Simply reach out to us via contact form or phone. We’ll discuss your goals, analyze your current presence, and create a plan according to your brand. Let’s grow your business together!",
+            },
+
+        ]
     }
 };
 
@@ -2293,7 +2422,7 @@ export const contentWritingData = {
     ],
 
     image: {
-        src: servicepageimage6,
+        src: servicepageimage5,
         alt: "Content Writing Services in Bhopal",
         style: "w-[437px] mx-auto"
     }
@@ -2307,7 +2436,7 @@ export const webDevelopmentData = {
     ],
 
     image: {
-        src: servicepageimage7,
+        src: servicepageimage6,
         alt: "Web Development Company in Bhopal",
         style: "w-[350px] pt-12 mx-auto"
     },
@@ -2327,7 +2456,46 @@ export const webDevelopmentData = {
             "Total Responsive Setup",
             "Best Support and Maintenance"
         ]
+    },
+    faqsection: {
+        title: "Frequently ",
+        highlight: "Asked Questions",
+
+        faqs: [
+            {
+                question: "What kind of website development services does your firm provide in Bhopal?",
+                answer:
+                    "Our web development services in Bhopal range from simple brochure sites to full-fledged e-commerce stores and customized web applications. We handle everything from design and development to hosting setup and ongoing maintenance.",
+            },
+            {
+                question: "How do you design websites for Bhopal clients?",
+                answer:
+                    "We begin with an in-depth consultation to understand your goals. From there, we craft a custom plan with design mockups, development timelines, and a clear roadmap tailored to your business vision.",
+            },
+            {
+                question: "What platforms do you deal with as a Bhopal social media agency?",
+                answer:
+                    "We specialize in Facebook, Instagram, LinkedIn, x, YouTube, and Pinterest. Our specialists create all platform strategies to increase engagement and conversions, so that your business is reach and noticed by the right users.",
+            },
+            {
+                question: "How is your website development agency unique compared to others in Bhopal?",
+                answer:
+                    "Unlike most agencies, we combine technical accuracy with strategic alignment to your business objectives. Our unique blend of technical skills and marketing expertise sets us apart.",
+            },
+            {
+                question: "How long does it take to build a site with your offerings?",
+                answer:
+                    "Most websites are completed within 3–6 weeks, depending on complexity. We provide a fixed project timeline once we understand your specific needs.",
+            },
+            {
+                question: "Do you offer support after website launch?",
+                answer:
+                    "Absolutely. We provide full post-launch support, including maintenance, updates, and performance monitoring to keep your website running smoothly and securely.",
+            },
+
+        ]
     }
+
 };
 
 export const mobileAppData = {
@@ -2338,7 +2506,7 @@ export const mobileAppData = {
     ],
 
     image: {
-        src: servicepageimage8,
+        src: servicepageimage7,
         alt: "Mobile App Development Services in Bhopal",
         style: "w-[337px] mx-auto"
     },
@@ -2399,20 +2567,22 @@ export const aiMarketingdata = {
         style: { paddingTop: "50px" }
     },
 
-    faqs: [
-        {
-            question: "What are the benefits of AI in marketing?",
-            answer: "AI enhances marketing by improving targeting precision, automating repetitive tasks, and providing actionable insights from data analysis."
-        },
-        {
-            question: "How can AI improve marketing ROI?",
-            answer: "AI improves ROI by optimizing ad spend based on predictive analytics, personalizing customer interactions at scale, and increasing efficiency in campaign management."
-        },
-        {
-            question: "Is AI marketing suitable for all business sizes?",
-            answer: "Yes, AI marketing can benefit businesses of all sizes by offering scalable solutions that enhance marketing effectiveness and streamline operations."
-        }
-    ]
+    sectionOne: {
+        title: "What are the benefits of AI in marketing?",
+        description: `AI enhances marketing by improving targeting precision, automating repetitive tasks, and providing actionable insights from data analysis.`
+    },
+    sectionTwo: {
+        title: "How can AI improve marketing ROI?",
+        description: `AI improves ROI by optimizing ad spend based on predictive analytics, personalizing customer interactions at scale, and increasing efficiency in campaign management.`
+    },
+    sectionThree: {
+        title: "Is AI marketing suitable for all business sizes?",
+        conclusion: `Yes, AI marketing can benefit businesses of all sizes by offering scalable solutions that enhance marketing effectiveness and streamline operations.`
+    },
+
+
+
+
 };
 
 

@@ -4,7 +4,7 @@ import Serviceshero from "../components/servicescomponents/Serviceshero";
 import SectionBlock from "../components/servicescomponents/SectionBlock";
 import FeatureList from "../components/servicescomponents/FeatureList";
 import ProcessSteps from "../components/servicescomponents/ProcessSteps";
-
+import Accordion from "../components/ui/accordionItem/Accordion";
 import { semheaderTitles, semMarketingdata } from "../data.jsx";
 import { semPageSEO } from "../seo";
 
@@ -53,6 +53,8 @@ export default function index() {
           />
         )}
       </section>
+    
+
     </main>
   );
 }
