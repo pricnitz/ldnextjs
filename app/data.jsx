@@ -131,6 +131,18 @@ export const aiMarketingheaderTitles = {
 export const portfolioheaderTitles = {
     title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
 }
+export const digitalmarketingcompanyraisentitle = {
+    title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
+}
+export const digitalmarketingcompanysehoretitle = {
+    title: "We are a professional Web Development & Digital Marketing Company in Sehore."
+}
+export const digitalmarketingcompanyhoshangabadtitle = {
+    title: "We are a professional Web Development & Digital Marketing Company in Hoshangabad."
+}
+export const digitalmarketingcompanyvidishatitle = {
+    title: "We are a professional Web Development & Digital Marketing Company in Vididsha."
+}
 
 
 // ====================================================================================> home page starts from here
@@ -2620,6 +2632,347 @@ export const portfolioData = [
 ];
 
 
+// ====================================================================================================> digital-marketing-company-raisen
+
+export const digitalMarketingCompanyRaisen = {
+    count: "#1 ",
+    title: "Digital Marketing Company in Raisen",
+    highlight: "Grow Your Local Business",
+    description:
+        "Leads & Brands is Raisen's most trusted digital marketing agency helping businesses in Raisen, Bareli, and Gairatganj grow online. Our digital marketing services in Raisen deliver real results through SEO, social media, Google Ads, and custom websites.",
+    subHighlight: ["digital", "marketing", "agency", "services", "Raisen"],
+
+    sectiontwo: {
+        title: "Our Raisen",
+        highlight: " Digital Marketing Solutions:",
+        benefitcards: [
+            {
+                title: "Local SEO for Raisen",
+                description: "Improve your local presence organically by dominating searches for digital marketing services in Raisen"
+            },
+            {
+                title: "Social Media Marketing",
+                description: "Target Raisen customers on Facebook, Instagram with location-specific campaigns."
+            },
+            {
+                title: "Google Ads Management",
+                description: "Get front-page visibility when Raisen customers search for your products/services."
+            },
+            {
+                title: "Raisen Business Websites",
+                description: "Mobile-optimized websites loading in under 2 seconds, perfect for Raisen's internet speeds."
+            },
+            {
+                title: "Content Writing",
+                description: "Copyscape passed niche relevant content for local business"
+            },
+            {
+                title: "Email Marketing",
+                description: "Localized email marketing campaign related to multiple local businesses."
+            }
+        ],
+
+    },
+    sectionthree: {
+        title: "Raisen Business",
+        highlight: " Transformation:",
+        description: ["Our Raisen agricultural equipment store gained 40+ monthly leads through Leads & Brands' local SEO strategy, focusing on keywords like 'tractor parts in Raisen'. Sales increased by 35% in just 5 months."],
+        features: "- Vikram Singh, Malwa Agro, Raisen"
+    },
+    faqsection: {
+        title: "Frequently ",
+        highlight: "Asked Questions",
+
+        faqs: [
+            {
+                question: "1. Do you understand Raisen's local market needs?",
+                answer:
+                    "Absolutely! We've served 60+ Raisen businesses across agriculture, healthcare, education, and retail. Our strategies account for local buying habits, festivals like Raisen Utsav, and regional search trends.",
+            },
+            {
+                question: "2. What's special about social media marketing for Raisen?",
+                answer:
+                    "We focus on: • WhatsApp Business integration (popular in Raisen) • Vernacular content in Hindi/Bundeli • Targeting nearby areas: Bareli (15km), Goharganj (25km) • Local event-based campaigns",
+            },
+            {
+                question: "3. How do you handle Raisen's intermittent internet connectivity?",
+                answer:
+                    "Our Raisen-optimized solutions include: • Lite versions of websites (under 500KB) • SMS-based marketing integrations • Offline-friendly content strategies • Low-bandwidth ad creatives",
+            }
+
+        ]
+    }
+
+};
+
+// ===============================================
+
+export const digitalMarketingCompanySehore = {
+    count: "#1 ",
+    title: "Digital Marketing Company in Sehore",
+    highlight: "Best Digital Marketing Agency in Sehore",
+    description:
+        "Leads & Brands is the #1 destination for those who are looking for a digital marketing agency in Sehore. We provide excellent services to increase your online presence by various methods like SEO, SMM, SEM, PPC, web design, etc.",
+    subHighlight: ["digital", "marketing", "agency", "services", "Raisen"],
+
+    sectiontwo: {
+        title: "Our Sehore ",
+        highlight: " Digital Marketing Services Include:",
+        benefitcards: [
+            {
+                title: "Local SEO for Sehore",
+                description: "Rank #1 for digital marketing services in Sehore and attract high-intent local customers."
+            },
+            {
+                title: "Social Media Marketing",
+                description: "Dominate social media presence using Facebook, Instagram, and LinkedIn paid and organic campaigns."
+            },
+            {
+                title: "Google Ads",
+                description: "Get instant traffic from Sehore customers searching for your services."
+            },
+            {
+                title: "Website Development",
+                description: "Mobile-friendly, fast-loading websites optimized for Sehore businesses."
+            },
+            {
+                title: "Content Writing",
+                description: "Copyscape passed niche relevant content for local business"
+            },
+            {
+                title: "Email Marketing",
+                description: "Localized email marketing campaign related to multiple local businesses."
+            }
+        ],
+
+    },
+    sectionthree: {
+        title: "Sehore Business",
+        highlight: " Success Story:",
+        description: ["Leads & Brands increased our clinic's website traffic by 300% in 4 months through their digital marketing services in Sehore. We now get 15+ new patient inquiries weekly!"],
+        features: "- Dr. Amit Sharma, Sehore Healthcare Center"
+    },
+    faqsection: {
+        title: "Frequently ",
+        highlight: "Asked Questions",
+
+        faqs: [
+            {
+                question: "How much do digital marketing services cost in Sehore?",
+                answer:
+                    "Our Sehore digital marketing packages depend on clients budgets, their niche, and their target location, so you need to first consult us to get the cost idea.",
+            },
+            {
+                question: "Do you work with restaurants/shops in Sehore?",
+                answer:
+                    "Absolutely! We've helped 25+ Sehore local businesses with Google My Business optimization, food photography, and hyperlocal social media ads.",
+            },
+            {
+                question: "What services do you offer in Sehore for digital marketing?",
+                answer:
+                    "We provide a wide range of digital marketing services in Sehore, including Google Ads for real-time traffic, social media marketing to boost interaction, and search engine optimization (SEO) to improve Google ranks. In addition, we offer expert website design, email marketing to generate leads, and content marketing to establish brand authority.",
+            },
+
+            {
+                question: "How long does it take for digital marketing to show results?",
+                answer:
+                    "The plan determines how long it will take to see results. While SEO may take three to six months to provide noticeable ranking improvements, PPC advertising can generate visitors in a single day. While social media marketing generates engagement in a matter of weeks, it may take one to three months of consistent work to convert followers into consumers.",
+            },
+
+            {
+                question: "Do you assist small businesses in Sehore?",
+                answer:
+                    "Yes! Our Sehore digital marketing services aim at enabling small businesses and startups to compete. We have affordable packages that target high-impact methods to ensure even the smallest of businesses can expand online presence without over-spending.",
+            }
+
+        ]
+    }
+
+};
+
+export const digitalMarketingCompanyHoshangabad = {
+    count: "#1 ",
+    title: "Digital Marketing Company in Hoshangabad",
+    highlight: "Grow Your Business Online",
+    description:
+        "Leads & Brands is Hoshangabad’s premier digital marketing agency, specializing in ROI-driven strategies for local businesses. Our digital marketing services in Hoshangabad include SEO, social media, PPC, and web design – all tailored to help you dominate your market.",
+    subHighlight: ["digital", "marketing", "agency", "services", "Raisen"],
+
+    sectiontwo: {
+        title: "Our Hoshangabad ",
+        highlight: "  Digital Marketing Services",
+        benefitcards: [
+            {
+                title: "Local SEO",
+                description: "Rank #1 for Hoshangabad digital marketing services and bring ready-to-buy customers to your door."
+            },
+            {
+                title: "Social Media Marketing",
+                description: "Hoshangabad audiences are targeted based on various local areas, specifically on Facebook, Instagram, and YouTube."
+            },
+            {
+                title: "Google Ads",
+                description: "Get instant traffic from Hoshangabad customers searching for your products/services."
+            },
+            {
+                title: "Website Development",
+                description: "Fast, mobile-friendly websites designed for Hoshangabad businesses."
+            },
+            {
+                title: "Content Writing",
+                description: "Copyscape passed niche relevant content for local business"
+            },
+            {
+                title: "Email Marketing",
+                description: "Localized email marketing campaign related to multiple local businesses."
+            }
+        ],
+
+    },
+    sectionthree: {
+        title: "Hoshangabad",
+        highlight: " Success Story:",
+        description: [
+            "Leads & Brands transformed our Hoshangabad furniture store's online presence. Within 6 months, we went from 2-3 website visits/day to 50+ qualified leads monthly through their digital marketing strategies."
+        ],
+        features: "- Ramesh Patel, Hoshangabad Home Decor"
+    },
+
+    faqsection: {
+        title: "Frequently ",
+        highlight: "Asked Questions",
+
+        faqs: [
+            {
+                question: "1. What's the cost of digital marketing in Hoshangabad?",
+                answer:
+                    "Our Hoshangabad digital marketing packages start at ₹8,000/month for basic SEO. Book a free audit for custom pricing based on your business goals."
+            },
+            {
+                question: "2. Do you serve industries like healthcare in Hoshangabad?",
+                answer:
+                    "Yes! We're experts in healthcare marketing for Hoshangabad clinics, including HIPAA-compliant websites and patient acquisition campaigns."
+            },
+            {
+                question: "3. How long before you can see the effects of SEO in Hoshangabad?",
+                answer:
+                    "For most Hoshangabad companies, we notice initial SEO gains in 4-8 weeks, with notable traffic increases in 3-6 months. Local SEO for digital marketing services in Hoshangabad keywords often shows faster results than national campaigns."
+            },
+            {
+                question:
+                    "4. Can you manage my Google Business Profile for my Hoshangabad location?",
+                answer:
+                    "Absolutely! We manage Google Business Profiles for over 50 Hoshangabad businesses, including posts, reviews, and local citations. This is the key to showing up in the Local 3-Pack when customers search for services locally."
+            },
+            {
+                question: "5. What makes your Hoshangabad digital marketing different from others?",
+                answer: [
+                    "Unlike generic agencies, we:",
+                    `<ul class="list-disc ml-6 space-y-1">
+            <li>Maintain an office in Hoshangabad</li>
+            <li>Customize strategies for the local market</li>
+            <li>Provide monthly in-person strategy sessions</li>
+            <li>Offer Hindi/English reporting for better understanding</li>
+          </ul>`
+                ]
+            },
+            {
+                question: "6. Do you offer content in Hindi for audiences in Hoshangabad?",
+                answer:
+                    "Yes! Our content team in Hoshangabad produces bilingual content (Hindi-English) for websites, social media, and advertisements — particularly useful for catching local customers in their native language."
+            },
+            {
+                question: "7. How do you target customers in specific Hoshangabad areas?",
+                answer: [
+                    "We use:",
+                    `<ul class="list-disc ml-6 space-y-1">
+            <li>Hyperlocal SEO for areas like Itarsi, Bankhedi, etc.</li>
+            <li>Facebook/Instagram geo-targeting by Hoshangabad pincodes</li>
+            <li>Google Ads location extensions showing your business address</li>
+            <li>Local influencer partnerships in Hoshangabad</li>
+          </ul>`
+                ]
+            }
+        ]
+    }
+
+
+};
+export const digitalMarketingCompanyVidisha = {
+    count: "#1 ",
+    title: "Digital Marketing Services in Vidisha",
+    highlight: "Boost Your Company's Online Presence",
+    description:
+        "Are you trying to find a digital marketing company in Vidisha that helps businesses change? We at Leads & Brands offer top-notch digital marketing services in Vidisha that support companies' online success. In order to provide high visibility, engagement, and conversions, we cover and strategically plan PPC, content marketing, social media marketing, and SEO.",
+    subHighlight: ["digital", "marketing", "agency", "services", "Raisen"],
+
+    sectiontwo: {
+        title: "As one of Vidisha's leading  ",
+        highlight: "  Digital Marketing Company",
+        benefitcards: [
+            {
+                title: "SEO",
+                description: "Increase your organic presence online using search engine optimization. Rank #1 for Hoshangabad digital marketing services and bring ready-to-buy customers to your door."
+            },
+            {
+                title: "SMM",
+                description: "Reach your online presence using social media channels like Facebook, Instagram, YouTube, and LinkedIn. Hoshangabad audiences are targeted based on various local areas."
+            },
+            {
+                title: "Pay-Per-Click (PPC)",
+                description: "Use tailored Google Ads to increase visitors right away. Get instant traffic from Hoshangabad customers searching for your products and services."
+            },
+            {
+                title: "Content Writing",
+                description: "Using excellent blogs, videos, and infographics to build authority is known as content marketing. We provide Copyscape-passed niche relevant content for local businesses."
+            },
+            {
+                title: "Email Marketing",
+                description: "Effectively nurture prospects and keep customers with localized email marketing campaigns tailored to Hoshangabad businesses."
+            },
+            {
+                title: "Web Design",
+                description: "Fast, mobile-friendly, and SEO-optimized websites designed specifically for Hoshangabad businesses to convert visitors into customers."
+            }
+        ],
+
+    },
+
+
+    faqsection: {
+        title: "Frequently ",
+        highlight: "Asked Questions",
+        faqs: [
+            {
+                question: "1. What is digital marketing and why do you need it?",
+                answer:
+                    "Digital marketing is the advertising of a company through digital media including websites, social media, emails, and search engines. It is important to Vidisha businesses because it allows them to expand their market nationwide or even globally, apart from reaching their local clients."
+            },
+            {
+                question: "2. Why should I choose your digital marketing agency in Vidisha?",
+                answer:
+                    "What sets our Vidisha digital marketing firm apart is that we provide customized solutions according to your company's needs. We have years of experience, a strong return on investment, and a dedication to openness through frequent performance updates."
+            },
+            {
+                question: "3. What services do you offer in Vidisha for digital marketing?",
+                answer:
+                    "We provide a wide range of digital marketing services in Vidisha, including Google Ads for real-time traffic, social media marketing to boost interaction, and search engine optimization (SEO) to improve Google ranks. In addition, we offer expert website design, email marketing to generate leads, and content marketing to establish brand authority."
+            },
+            {
+                question: "4. How long does it take for digital marketing to show results?",
+                answer:
+                    "The plan determines how long it will take to see results. While SEO may take three to six months to provide noticeable ranking improvements, PPC advertising can generate visitors in a single day. While social media marketing generates engagement in a matter of weeks, it may take one to three months of consistent work to convert followers into consumers."
+            },
+            {
+                question: "5. Do you assist small businesses in Vidisha?",
+                answer:
+                    "Yes! Our Vidisha digital marketing services aim at enabling small businesses and startups to compete. We have affordable packages that target high-impact methods to ensure even the smallest of businesses can expand online presence without over-spending."
+            },
+        ]
+    }
+
+
+};
 
 
 

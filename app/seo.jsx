@@ -831,7 +831,7 @@ export const seotrends = {
   },
 };
 
-export const digitalmarketingcompanyvidisha = {
+export const digitalmarketingcompanyvidishaseo = {
   title:"Digital Marketing Company in Vidisha | Top Digital marketing Agency & Services in Vidisha",
   description:"Leads & Brands is the leading digital marketing agency in Vidisha offering expert SEO, PPC, social media & web design services. Grow your business online today!",
   alternates: {
@@ -866,7 +866,7 @@ export const digitalmarketingcompanyvidisha = {
   },
 };
 
-export const digitalmarketingcompanyhoshangabad = {
+export const digitalmarketingcompanyhoshangabadseo = {
   title:"Digital Marketing Company in hoshangabad | Top Digital marketing Agency & Services in hoshangabad",
   description:"Leads & Brands is the leading digital marketing agency in hoshangabad offering expert SEO, PPC, social media & web design services. Grow your business online today!",
   alternates: {
@@ -901,7 +901,7 @@ export const digitalmarketingcompanyhoshangabad = {
   },
 };
 
-export const digitalmarketingcompanyraisen = {
+export const digitalmarketingcompanyraisenseo = {
   title:"Digital Marketing Company in Raisen | Top Digital marketing Agency & Services in Raisen",
   description:"Leads & Brands is the leading digital marketing agency in Raisen offering expert SEO, PPC, social media & web design services. Grow your business online today!",
   alternates: {
@@ -936,7 +936,7 @@ export const digitalmarketingcompanyraisen = {
   },
 };
 
-export const digitalmarketingcompanysehore = {
+export const digitalmarketingcompanysehoreseo = {
   title:"Digital Marketing Company in Sehore | Top Digital marketing Agency & Services in Sehore",
   description:"Leads & Brands is the leading digital marketing agency in Sehore offering expert SEO, PPC, social media & web design services. Grow your business online today!",
   alternates: {

@@ -21,7 +21,19 @@ export default function FAQSection({ title, highlight, faqs }) {
             <h3 className="text-red-600 text-lg font-raleway flex items-start gap-2 mb-3">
               <span>❓</span> {faq.question}
             </h3>
-            <p className=" text-para leading-relaxed">{faq.answer}</p>
+
+            {/* Render answer */}
+            {Array.isArray(faq.answer) ? (
+              <>
+                <p className="text-para leading-relaxed">{faq.answer[0]}</p>
+                <div
+                  className="text-para leading-relaxed mt-2"
+                  dangerouslySetInnerHTML={{ __html: faq.answer[1] }}
+                />
+              </>
+            ) : (
+              <p className="text-para leading-relaxed">{faq.answer}</p>
+            )}
           </div>
         ))}
       </div>

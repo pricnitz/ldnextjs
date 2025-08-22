@@ -15,7 +15,7 @@ function History({ data }) {
 
   return (
     <AOSWrapper>
-          <div className="w-full mx-auto bg-primary relative">
+          <div className="w-full mx-auto bg-primary relative text-center md:text-left">
       <Swiper
         modules={[Navigation, Pagination]}
         pagination={{ clickable: true }}

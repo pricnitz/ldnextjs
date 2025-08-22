@@ -7,7 +7,7 @@ import AOSWrapper from '@/app/utils/AOSWrapper'
 function Coreteam({ data }) {
   return (
     <AOSWrapper>
-      <div className='w-full mx-auto bg-primary'>
+      <div className='w-full mx-auto bg-primary text-center md:text-left'>
         <div className='max-w-6xl mx-auto py-10 md:py-20 md:px-10 px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
           <div className='flex flex-col justify-center gap-3' data-aos="fade-right">
             <h2 className='text-2xl md:text-3xl lg:text-4xl font-raleway text-white'>Core Team</h2>

@@ -9,7 +9,7 @@ function Successstory({ data }) {
 
     return (
         <AOSWrapper>
-            <div>
+            <div className='text-center md:text-left'>
                 <div className="max-w-6xl mx-auto py-10 md:py-20 md:px-10 px-4">
                     <h2 className="text-2xl md:text-3xl lg:text-4xl font-raleway text-white text-center">
                         Success Stories
@@ -76,7 +76,7 @@ function Successstory({ data }) {
                     </div>
 
 
-                    <div className="max-w-4xl mt-4 mx-auto grid md:grid-cols-4 grid-cols-2 gap-1 ">
+                    <div className="max-w-4xl mt-4 mx-auto grid md:grid-cols-4 grid-cols-2 gap-4 ">
                         {data.map((story) => (
                             <button
                                 key={story.id}

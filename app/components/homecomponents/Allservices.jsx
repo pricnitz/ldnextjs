@@ -6,7 +6,7 @@ import AOSWrapper from '@/app/utils/AOSWrapper'
 function Allservices({ data }) {
   return (
     <AOSWrapper>
-      <div className='w-full mx-auto bg-primary'>
+      <div className='w-full mx-auto bg-primary text-center md:text-left'>
         <div className='max-w-6xl mx-auto py-10 md:py-20 md:px-10 px-4'>
           <h2 className='text-2xl md:text-3xl lg:text-4xl font-raleway text-white'>All Services</h2>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0.5 mt-4'>
@@ -20,7 +20,7 @@ function Allservices({ data }) {
                       .slice(0, 30)
                       .join(" ")}
                   </p>
-                  <div className='w-35'>
+                  <div className='w-35 mx-auto md:mx-0'>
                     <Link href={item.link}>
                       <Buttonsolid>
                         Click here

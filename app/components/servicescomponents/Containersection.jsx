@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Containersection({ title, highlight, description, conclusion }) {
+export default function Containersection({ title, highlight, description, conclusion , features }) {
   return (
     <div className="my-12">
       {title && (
@@ -21,6 +21,7 @@ export default function Containersection({ title, highlight, description, conclu
         </div>
       )}
 
+      {features && <p className="text-para mt-4 text-center"><i>{features}</i></p>}
       {conclusion && <p className="text-para mt-4">{conclusion}</p>}
     </div>
   );
