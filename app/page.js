@@ -41,6 +41,7 @@ export default function Home() {
         <History data={historyData} />
       </section>
       <Testimonial data={testimonialsdata} />
+      <section id="contact"></section>
     </main>
   );
 }

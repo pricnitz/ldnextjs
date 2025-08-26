@@ -8,8 +8,9 @@ function Successstory({ data }) {
     const [activeTab, setActiveTab] = useState(data[0].id); // default to first item
 
     return (
-        <AOSWrapper>
-            <div className='text-center md:text-left'>
+
+        <div className='text-center md:text-left overflow-hidden'>
+            <AOSWrapper>
                 <div className="max-w-6xl mx-auto py-10 md:py-20 md:px-10 px-4">
                     <h2 className="text-2xl md:text-3xl lg:text-4xl font-raleway text-white text-center">
                         Success Stories
@@ -22,7 +23,7 @@ function Successstory({ data }) {
                                 activeTab === story.id && (
                                     <div key={story.id} className="grid md:grid-cols-2 gap-8 items-start justify-center align-middle">
                                         {/* Left Column */}
-                                        <div className='text-para'   data-aos="fade-right">
+                                        <div className='text-para' data-aos="fade-right">
                                             <h3 className="text-sm md:text-xl font-semibold text-white">{story.title}</h3>
                                             <p className="text-sm text-gray-300">{story.subtitle}</p>
                                             <div className="space-y-4 mt-4">
@@ -46,7 +47,7 @@ function Successstory({ data }) {
                                         </div>
 
                                         {/* Right Column - Metrics */}
-                                        <div className="space-y-4 "   data-aos="fade-left">
+                                        <div className="space-y-4 " data-aos="fade-left">
                                             {story.metrics.map((metric, idx) => (
                                                 <div
                                                     key={idx}
@@ -80,7 +81,7 @@ function Successstory({ data }) {
                         {data.map((story) => (
                             <button
                                 key={story.id}
-                              
+
                                 onClick={() => setActiveTab(story.id)}
                                 className={` rounded-lg hover:grayscale-0 transition delay-300 cursor-pointer ${activeTab === story.id ? 'grayscale-0' : 'grayscale '
                                     }`}
@@ -94,9 +95,8 @@ function Successstory({ data }) {
                         ))}
                     </div>
                 </div>
-            </div>
-        </AOSWrapper>
-
+            </AOSWrapper>
+        </div>
     );
 }
 

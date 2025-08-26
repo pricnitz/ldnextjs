@@ -14,7 +14,7 @@ export default function Navbar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const navLinks = [
-    { href: "/#home", label: "Home" },
+    { href: "/", label: "Home" },
     { href: "/#services", label: "Services" },
     { href: "/#team", label: "Team" },
     { href: "/#about", label: "About" },

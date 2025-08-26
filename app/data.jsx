@@ -143,6 +143,9 @@ export const digitalmarketingcompanyhoshangabadtitle = {
 export const digitalmarketingcompanyvidishatitle = {
     title: "We are a professional Web Development & Digital Marketing Company in Vididsha."
 }
+export const faqtitle = {
+    title: "We are a professional Web Development & Digital Marketing Company in Vididsha."
+}
 
 
 // ====================================================================================> home page starts from here
@@ -2974,5 +2977,55 @@ export const digitalMarketingCompanyVidisha = {
 
 };
 
+
+export const faqdata = {
+       faqsection: {
+        title: "Frequently ",
+        highlight: "Asked Questions",
+
+        faqs: [
+            {
+                question: "What is SEO?",
+                answer:
+                    "SEO (Search Engine Optimization) is the process of improving your website's visibility in search engine results to attract more organic traffic and potential customers to your business.",
+            },
+            {
+                question: "Why is SEO necessary?",
+                answer:
+                    "SEO is essential because when you have a business, you need customers. SEO is the most effective organic way to attract potential customers who are actively searching for your products or services online.",
+            },
+            {
+                question: "How to choose an SEO company in Bhopal?",
+                answer:
+                    "Look for case studies, check their online presence, review past results for other businesses, and read client testimonials. A reputable company like LeadsandBrands will be transparent about their methods and results.",
+            },
+            {
+                question: "What SEO services do you provide?",
+                answer:
+                    "We offer complete SEO services including Technical SEO, On-Page SEO, Off-Page SEO, Local SEO, Keyword Research, and Online Reputation Management tailored to your specific business needs.",
+            },
+            {
+                question: "How long does SEO take to show results?",
+                answer:
+                    "For new business websites, it typically takes 3-6 months to see significant results. Some businesses with low competition may see improvements in 6-8 weeks. SEO is a long-term strategy that builds over time.",
+            },
+            {
+                question: "Why is LeadsandBrands the best in Bhopal?",
+                answer:
+                    "We're the top SEO company in Bhopal because we use data-driven methods and white-hat techniques. We work from campaign start to finish until you achieve your desired results, with no false promises.",
+            },
+            {
+                question: "What industries do you work with?",
+                answer:
+                    "As the best SEO agency in Bhopal, we work with all industries including healthcare, technology, education, manufacturing, real estate, and entertainment to improve their online presence.",
+            },
+            {
+                question: "How do I start using your services?",
+                answer:
+                    "Simply contact us through our website to request a free SEO audit for your website. We'll analyze your current situation and propose a customized strategy to begin your campaign.",
+            },
+        ]
+    }
+}
 
 

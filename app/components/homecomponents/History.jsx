@@ -39,10 +39,10 @@ function History({ data }) {
               priority
             />
             {/* Overlay */}
-            <div className="absolute inset-0 bg-opacity-50"></div>
+            <div className="absolute inset-0 bg-opacity-50 "></div>
 
             {/* Content */}
-            <div className="relative z-10 mx-auto w-full max-w-6xl h-full flex md:grid md:grid-cols-2 flex-col px-4 py-10 md:py-20 items-center justify-between">
+            <div className="relative z-10 mx-auto w-full max-w-6xl h-full flex md:grid md:grid-cols-2 flex-col py-10 md:py-20 md:px-10 px-4 items-center justify-between">
               <div data-aos="fade-right">
                 <h3 className="text-white text-2xl md:text-3xl lg:text-4xl font-raleway py-5">
                   {data[0].title}
@@ -79,10 +79,10 @@ function History({ data }) {
               className="object-cover z-0"
             />
             {/* Overlay */}
-            <div className="absolute inset-0 bg-opacity-50"></div>
+            <div className="absolute inset-0 bg-opacity-50 "></div>
 
             {/* Content */}
-            <div className="relative z-10 mx-auto w-full max-w-6xl h-full flex md:grid md:grid-cols-2 flex-col-reverse px-4 py-10 md:py-20 items-center justify-between">
+            <div className="relative z-10 mx-auto w-full max-w-6xl h-full flex md:grid md:grid-cols-2 flex-col-reverse py-10 md:py-20 md:px-10 px-4 items-center justify-between">
               <div data-aos="fade-right">
                 <button
                   ref={prevRef}
