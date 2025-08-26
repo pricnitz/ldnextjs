@@ -20,10 +20,10 @@ function Allservices({ data }) {
                       .slice(0, 30)
                       .join(" ")}
                   </p>
-                  <div className='w-35 mx-auto md:mx-0'>
+                  <div className='mx-auto md:mx-0'>
                     <Link href={item.link}>
                       <Buttonsolid>
-                        Click here
+                       <span> Click here for </span><span>{item.title}</span>
                       </Buttonsolid>
                     </Link>
                   </div>

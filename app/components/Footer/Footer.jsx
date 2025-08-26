@@ -38,8 +38,8 @@ function Footer() {
                             <h3 className="text-xl font-raleway">Leads & Brands</h3>
                         </div>
                         <div className="row-span-1 flex flex-col gap-1 my-auto md:justify-start justify-center md:items-start items-center md:text-start text-center md:px-10 px-0">
-                            <div className="flex gap-1 my-auto justify-start text-gray-400 ">
-                                <Link className="text-red-700" href="/career">Career</Link> | <Link className="text-red-700" href="/blogs">Blogs</Link> | <Link className="text-red-700" href="/#services">Services</Link> | <Link className="text-red-700" href="/#sitemap">Sitemap</Link> | <Link className="text-red-700" href="/faq">Faq</Link>
+                            <div className="flex gap-1 my-auto justify-start text-gray-100 ">
+                                <Link className="text-red-600 " href="/career">Career</Link> | <Link className="text-red-700" href="/blogs">Blogs</Link> | <Link className="text-red-700" href="/#services">Services</Link> | <Link className="text-red-700" href="/#sitemap">Sitemap</Link> | <Link className="text-red-700" href="/faq">Faq</Link>
                             </div>
                             <span className=" flex gap-1">
                                 Email:

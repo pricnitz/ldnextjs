@@ -51,9 +51,9 @@ export default function Navbar() {
     <div className="w-full bg-[linear-gradient(to_bottom,theme(colors.primary)_0%,theme(colors.primary)_70%,theme(colors.primarytransparent)_85%,transparent_100%)] text-white p-4 z-50">
       <nav className="relative max-w-7xl mx-auto flex justify-between items-center py-2 z-50">
         {/* Logo */}
-        <div className="text-lg font-bold max-w-50 md:max-w-80 ">
+        <Link href='/' className="text-lg font-bold max-w-50 md:max-w-80 ">
           <Image src={leadsandbrandlogo} alt="Logo" className="w-full" width={150} height={50} />
-        </div>
+        </Link>
 
         {/* Desktop nav */}
         <ul className="hidden md:flex gap-10">
@@ -79,7 +79,7 @@ export default function Navbar() {
 
         {/* Hamburger menu (mobile only) */}
         <div className="md:hidden">
-          <button onClick={toggleSidebar}>
+          <button onClick={toggleSidebar} aria-label="toggle for sidebar"> 
             {isSidebarOpen ? <FiX size={28} /> : <FiMenu size={28} />}
           </button>
         </div>
@@ -106,7 +106,7 @@ export default function Navbar() {
                   href={link.href}
                   scroll={true}
                   onClick={closeSidebar}
-                  className={isActive ? "text-red-600 font-bold" : ""}
+                  className={isActive ? "font-bold" : ""}
                 >
                   {link.label}
                 </Link>

@@ -8,7 +8,7 @@ import { blogPostsdata } from '../data';
 import { OnPageSEO } from '../seo';
 
 
-const { title , image, content} = blogPostsdata[0];
+const { title, image, content } = blogPostsdata[0];
 
 export const metadata = OnPageSEO;
 
@@ -57,8 +57,8 @@ function renderContent(content) {
 
 
 export default function OnPageSeoPage() {
-    return (
-        <main className='w-full mx-auto bg-primary pt-20'>
+  return (
+    <main className='w-full mx-auto bg-primary pt-20'>
       <div className="fixed inset-x-0 top-0 z-50">
         <Header data={title} />
         <Navbar />
@@ -67,7 +67,7 @@ export default function OnPageSeoPage() {
         <div className="grid md:grid-cols-3 md:gap-4 grid-cols-1 gap-2">
           {/* Main Blog */}
           <div className="col-span-2">
-            <Image src={image} alt={title} width={800} height={400} className="rounded-lg mb-6 object-cover"/>
+            <Image src={image} alt={title} width={800} height={400} className="rounded-lg mb-6 object-cover" />
             <h1 className="lg:text-3xl md:text-2xl text-xl mb-4 text-white text-raleway">{title}</h1>
             {renderContent(content)}
           </div>
@@ -76,7 +76,7 @@ export default function OnPageSeoPage() {
             <div className="p-4 rounded-lg bg-secondary px-4">
               <h2 className="text-xl font-bold text-white mb-4">Related Blogs</h2>
               <ul className="space-y-4">
-                   {blogPostsdata
+                {blogPostsdata
                   .filter((post) => post.title !== title) // Exclude the current post
                   .slice(0, 5) // Limit to 5 related posts
                   .map((relatedPost) => (
@@ -88,12 +88,12 @@ export default function OnPageSeoPage() {
                         height={200}
                         className="w-full h-auto object-cover rounded mb-2"
                       />
-                      <Link
-                        href={relatedPost.link}
-                        className="text-para hover:text-white"
-                      >
-                        {relatedPost.title}
-                      </Link>
+                    <Link
+  href={`/${relatedPost.link}`}
+  className="text-para hover:text-white"
+>
+  {relatedPost.title}
+</Link>
                     </li>
                   ))}
               </ul>
@@ -102,5 +102,5 @@ export default function OnPageSeoPage() {
         </div>
       </div>
     </main>
-    );
+  );
 }

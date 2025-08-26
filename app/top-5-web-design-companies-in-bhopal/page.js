@@ -88,11 +88,11 @@ export default function OnPageSeoPage() {
                         className="w-full h-auto object-cover rounded mb-2"
                       />
                       <Link
-                        href={relatedPost.link}
-                        className="text-para hover:text-white"
-                      >
-                        {relatedPost.title}
-                      </Link>
+  href={`/${relatedPost.link}`}
+  className="text-para hover:text-white"
+>
+  {relatedPost.title}
+</Link>
                     </li>
                   ))}
               </ul>
