@@ -31,7 +31,7 @@ export const MemberCard = ({ image, name, role }) => {
           p-4 transition-all duration-500 ease-in-out
         "
       >
-        <h5 className="font-bold text-lg text-white">{name}</h5>
+        <h3 className="font-bold text-lg text-white">{name}</h3>
         <p className="text-white text-sm">{role}</p>
       </div>
     </div>

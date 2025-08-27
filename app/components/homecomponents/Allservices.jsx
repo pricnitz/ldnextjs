@@ -12,18 +12,20 @@ function Allservices({ data }) {
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0.5 mt-4'>
             {
               data.map((item, index) => (
-                <div key={index} className='bg-btn w-full min-h-40 border-1 border-gray-950 p-8 hover:bg-black hover:border-btn transition duration-300 '  data-aos="zoom-in">
-                  <h3 className='font-raleway text-2xl font-extralight text-gray-200 mb-4'>{item.title}</h3>
-                  <p className="font-raleway text-base font-light text-gray-300 md:min-h-35 min-h-20 mb-5">
-                    {String(item.description || "")
-                      .split(" ")
-                      .slice(0, 30)
-                      .join(" ")}
-                  </p>
+                <div key={index} className='bg-btn w-full min-h-40 border-1 border-gray-950  hover:bg-black hover:border-btn transition duration-300 ' data-aos="zoom-in">
+                  <div className='p-8'>
+                    <h3 className='font-raleway text-2xl  font-extralight text-gray-200 mb-4'>{item.title}</h3>
+                    <p className="font-raleway text-base  font-light text-gray-300 md:min-h-37 min-h-20 mb-5">
+                      {String(item.description || "")
+                        .split(" ")
+                        .slice(0, 30)
+                        .join(" ")}
+                    </p>
+                  </div>
                   <div className='mx-auto md:mx-0'>
                     <Link href={item.link}>
                       <Buttonsolid>
-                       <span> Click here for </span><span>{item.title}</span>
+                        <span> Click For </span><span>{item.title}</span>
                       </Buttonsolid>
                     </Link>
                   </div>

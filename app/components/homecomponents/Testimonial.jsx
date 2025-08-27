@@ -30,6 +30,7 @@ function Testimonial({ data }) {
             {/* Custom Navigation Buttons */}
             <button
               ref={prevRef}
+              aria-label="swiper left"
               className="md:block hidden absolute left-2 top-1/2 -translate-y-1/2 z-20 p-3 rounded-full shadow hover:bg-transparent opacity-0 group-hover:opacity-100 transition"
             >
               <MdKeyboardDoubleArrowLeft size={35} className="text-white-600 text-para hover:text-red-600 transition delay-300 cursor-pointer" />
@@ -37,6 +38,8 @@ function Testimonial({ data }) {
 
             <button
               ref={nextRef}
+              
+              aria-label="swiper right"
               className="md:block hidden absolute right-2 top-1/2 -translate-y-1/2 z-20 p-3 rounded-full shadow hover:bg-transparent opacity-0 group-hover:opacity-100 transition"
             >
               <MdKeyboardDoubleArrowRight size={35} className="text-white-600 text-para hover:text-red-600 transition delay-300 cursor-pointer" />

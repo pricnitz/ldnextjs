@@ -29,7 +29,7 @@ function Whatwedo({ data }) {
                         {
                             data.cards.map((card, index) => (
                                 <Link key={index} href={card.link || "#"} className="bg-btn p-4 border-black m-0.5 shadow-md flex flex-col justify-center text-center hover:shadow-lg hover:bg-black transition" data-aos="fade-in">
-                                    <Image src={card.img} alt={card.title} className="w-10 mx-auto" />
+                                    <Image src={card.img} alt={`${card.title} img`} className="w-10 mx-auto" />
                                     <h3 className="mt-2 text-sm text-para">{card.title}</h3>
                                 </Link>
                             ))

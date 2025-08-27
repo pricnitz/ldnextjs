@@ -68,7 +68,7 @@ export default function Navbar() {
                 <Link
                   href={link.href}
                   scroll={true}
-                  className={isActive ? "text-red-600 font-bold" : ""}
+                  className={isActive ? " font-bold" : ""}
                 >
                   {link.label}
                 </Link>
