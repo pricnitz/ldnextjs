@@ -2444,10 +2444,10 @@ export const contentWritingData = {
 };
 
 export const webDevelopmentData = {
-    title: "Professional Website Development",
-    highlight: "& Design Services in Bhopal",
+    title: "Website Design & Development",
+    highlight: "Services in Bhopal",
     description: [
-        `Leads and Brands is a renowned <a href="https://leadsandbrands.com/web-developement-services-bhopal">web development company in Bhopal</a>. We concentrate on our client's vision and requirements and provide complete custom website development services. Our special team of website designing and web development has always given fully responsive, mobile-friendly, and SEO-friendly sites. Our development team knows everything and is willing to bring your ideas to fully functional reality.`
+        `Leads and Brands is a renowned <b style="color:white;">website design and development company in Bhopal</b>. We focus on our clients' vision and requirements, providing fully custom <b style="color:white;">web design services in Bhopal</b>. Our expert team delivers responsive, mobile-friendly, and SEO-optimized websites. From concept to launch, we transform your ideas into a fully functional online presence.`
     ],
 
     image: {
@@ -2457,8 +2457,8 @@ export const webDevelopmentData = {
     },
 
     sectionOne: {
-        title: "Leads and Brands is a top Website Designing Company in Bhopal",
-        description: `We can guarantee you the best cost-effective and optimised solution for your needs. We identify it as the best web developing or <a href="https://leadsandbrands.com/web-developement-services-bhopal">web designing company in Bhopal</a> and in the business world. Being the top web development services in Bhopal, we are convinced that your website must be able to turn visitors into paying customers. That's why we review all the major points of our client's website and provide a seamless and satisfying experience.`
+        title: "Leads and Brands – Top Website Designing Company in Bhopal",
+        description: `We provide cost-effective, optimized, and high-quality solutions tailored to your needs. Recognized as a leading web designing company in Bhopal, we ensure your website converts visitors into paying customers. Every aspect of your site is carefully reviewed to deliver a seamless and engaging experience.`
     },
 
     sectionTwo: {
@@ -2472,47 +2472,44 @@ export const webDevelopmentData = {
             "Best Support and Maintenance"
         ]
     },
+
     faqsection: {
         title: "Frequently ",
         highlight: "Asked Questions",
-
         faqs: [
             {
-                question: "What kind of website development services does your firm provide in Bhopal?",
+                question: "What type of website development services does your company offer?",
                 answer:
-                    "Our web development services in Bhopal range from simple brochure sites to full-fledged e-commerce stores and customized web applications. We handle everything from design and development to hosting setup and ongoing maintenance.",
+                    "We offer services as varied as simple brochure websites to full-scale e-commerce sites and tailored web applications. We take care of everything from design and development to hosting setup and upkeep.",
             },
             {
-                question: "How do you design websites for Bhopal clients?",
+                question: "How do you create websites for Bhopal customers?",
                 answer:
-                    "We begin with an in-depth consultation to understand your goals. From there, we craft a custom plan with design mockups, development timelines, and a clear roadmap tailored to your business vision.",
+                    "We start with a detailed consultation to learn about your objectives. From there on, we develop a personalized plan with design mockups, development schedules, and an unambiguous roadmap as per your vision for the company.",
             },
             {
-                question: "What platforms do you deal with as a Bhopal social media agency?",
+                question: "Which platforms do you work with as a Bhopal social media agency?",
                 answer:
-                    "We specialize in Facebook, Instagram, LinkedIn, x, YouTube, and Pinterest. Our specialists create all platform strategies to increase engagement and conversions, so that your business is reach and noticed by the right users.",
+                    "We are experts in Facebook, Instagram, LinkedIn, X, YouTube, and Pinterest. Our experts develop all platform tactics to build engagement and conversions, so your business can be reached and seen by the ideal users.",
             },
             {
-                question: "How is your website development agency unique compared to others in Bhopal?",
+                question: "Why is your website design agency in Bhopal different from other agencies?",
                 answer:
-                    "Unlike most agencies, we combine technical accuracy with strategic alignment to your business objectives. Our unique blend of technical skills and marketing expertise sets us apart.",
+                    "We are different from most agencies in that we marry technical precision with strategic clarity to your business goals. Our combination of technical know-how and marketing savvy makes us different.",
             },
             {
-                question: "How long does it take to build a site with your offerings?",
+                question: "How long does it take to construct a site with your products?",
                 answer:
-                    "Most websites are completed within 3–6 weeks, depending on complexity. We provide a fixed project timeline once we understand your specific needs.",
+                    "Most sites take 3--6 weeks to complete, based on complexity. We give you a fixed project timeframe once we know your precise requirements.",
             },
             {
-                question: "Do you offer support after website launch?",
+                question: "Do you provide assistance after site launch?",
                 answer:
-                    "Absolutely. We provide full post-launch support, including maintenance, updates, and performance monitoring to keep your website running smoothly and securely.",
+                    "Yes, definitely. We offer complete post-launch assistance, such as maintenance, updates, and performance checks to ensure your site keeps running smoothly and securely.",
             },
-
         ]
     }
-
 };
-
 export const mobileAppData = {
     title: "Mobile",
     highlight: "App Development",
